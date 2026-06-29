@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-06-29T21:35:59Z",
+  "folder": "10.1038_s41591-021-01454-y",
+  "doi": "10.1038/s41591-021-01454-y",
+  "study_path": "C:/WZB Dropbox/Macartan Humphreys/5_github/replicate_everything/rep-10.1038-s41591-021-01454-y",
+  "replications": {
+    "fig_1": {
+      "status": "ok",
+      "artifact": "artifacts/fig_1.png",
+      "format": "ggplot"
+    },
+    "fig_2": {
+      "status": "ok",
+      "artifact": "artifacts/fig_2.png",
+      "format": "ggplot"
+    },
+    "fig_3": {
+      "status": "ok",
+      "artifact": "artifacts/fig_3.png",
+      "format": "ggplot"
+    },
+    "fig_4": {
+      "status": "ok",
+      "artifact": "artifacts/fig_4.png",
+      "format": "ggplot"
+    },
+    "fig_5": {
+      "status": "ok",
+      "artifact": "artifacts/fig_5.png",
+      "format": "ggplot"
+    },
+    "fig_6": {
+      "status": "ok",
+      "artifact": "artifacts/fig_6.png",
+      "format": "ggplot"
+    },
+    "tab_1": {
+      "status": "ok",
+      "artifact": "artifacts/tab_1.html",
+      "format": "html"
+    },
+    "tab_2": {
+      "status": "ok",
+      "artifact": "artifacts/tab_2.html",
+      "format": "html"
+    },
+    "tab_3": {
+      "status": "ok",
+      "artifact": "artifacts/tab_3.html",
+      "format": "html"
+    },
+    "tab_4": {
+      "status": "ok",
+      "artifact": "artifacts/tab_4.html",
+      "format": "html"
+    },
+    "tab_5": {
+      "status": "ok",
+      "artifact": "artifacts/tab_5.html",
+      "format": "html"
+    },
+    "tab_6": {
+      "status": "ok",
+      "artifact": "artifacts/tab_6.html",
+      "format": "html"
+    },
+    "tab_7": {
+      "status": "ok",
+      "artifact": "artifacts/tab_7.html",
+      "format": "html"
+    },
+    "tab_8": {
+      "status": "ok",
+      "artifact": "artifacts/tab_8.html",
+      "format": "html"
+    },
+    "tab_9": {
+      "status": "ok",
+      "artifact": "artifacts/tab_9.html",
+      "format": "html"
+    },
+    "tab_10": {
+      "status": "ok",
+      "artifact": "artifacts/tab_10.html",
+      "format": "html"
+    },
+    "tab_11": {
+      "status": "ok",
+      "artifact": "artifacts/tab_11.html",
+      "format": "html"
+    }
+  }
+}

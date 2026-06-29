@@ -1,0 +1,32 @@
+# Lightweight registry stub for a folder-backed study.
+# Copy to registry/papers/<folder>.yml in the registry repo.
+# Registry folder: 10.1038_s41591-021-01454-y
+
+paper:
+  doi: https://doi.org/10.1038/s41591-021-01454-y
+  title: COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries
+  journal: Nature Medicine
+  year: 2021
+  authors: Julio S. Solís Arce, Shana S. Warren, Niccolò F. Meriggi, Alexandra Scacco,
+    Nina McMurry, Maarten Voors, Georgiy Syunyaev, Amyn Abdul Malik, Samya Aboutajdine,
+    Opeyemi Adeojo, Deborah Anigo, Alex Armand, Saher Asad, Martin Atyera, Britta
+    Augsburg, Manisha Awasthi, Gloria Eden Ayesiga, Antonella Bancalari, Martina Björkman
+    Nyqvist, Ekaterina Borisova, Constantin Manuel Bosancianu, Magarita Rosa Cabra
+    García, Ali Cheema, Elliott Collins, Filippo Cuccaro, Ahsan Zia Farooqi, Tatheer
+    Fatima, Mattia Fracchia, Mery Len Galindo Soria, Andrea Guariso, Ali Hasanain,
+    Sofía Jaramillo, Sellu Kallon, Anthony Kamwesigye, Arjun Kharel, Sarah Kreps,
+    Madison Levine, Rebecca Littman, Mohammad Malik, Gisele Manirabaruta, Jean Léodomir
+    Habarimana Mfura, Fatoma Momoh, Alberto Mucauque, Imamo Mussa, Jean Aime Nsabimana,
+    Isaac Obara, María Juliana Otálora, Béchir Wendemi Ouédraogo, Touba Bakary Pare,
+    Melina R. Platas, Laura Polanco, Javaeria Ashraf Qureshi, Mariam Raheem, Vasudha
+    Ramakrishna, Ismail Rendrá, Taimur Shah, Sarene Eyla Shaked, Jacob N. Shapiro,
+    Jakob Svensson, Ahsan Tariq, Achille Mignondo Tchibozo, Hamid Ali Tiwana, Bhartendu
+    Trivedi, Corey Vernot, Pedro C. Vicente, Laurin B. Weissinger, Basit Zafar, Baobao
+    Zhang, Dean Karlan, Michael Callen, Matthieu Teachout, Macartan Humphreys, Ahmed
+    Mushfiq Mobarak, Saad B. Omer
+  materials: folder
+  study_repo: replicate-anything/rep-10.1038-s41591-021-01454-y
+  study_ref: main
+  study_folder: rep-10.1038-s41591-021-01454-y
+repo: replicate-anything/rep-10.1038-s41591-021-01454-y
+

@@ -1,0 +1,753 @@
+"","var","m","tag","estimate","source","group","term","std.error","statistic","p.value","conf.low","conf.high","df","outcome","n","cat"
+"1","All","Leaving 1 out","All",0.806962525870568,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","All","Leaving 1 out","All",0.81401664733708,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","All","Leaving 1 out","All",0.799171204390882,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","All","Leaving 1 out","All",0.795166338105285,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","All","Leaving 1 out","All",0.805975431682019,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","All","Leaving 1 out","All",0.814005664733091,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","All","Leaving 1 out","All",0.796150034494449,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","All","Leaving 1 out","All",0.805661667726778,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","All","Leaving 1 out","All",0.79790226389978,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","All","Leaving 1 out","All",0.798694636673903,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","All","Leaving 1 out","All",0.80440305517379,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","All","Leaving 1 out","All",0.805886224960967,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","All","Leaving 1 out","All",0.788951638316433,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","All","Leaving 2 out","All",0.819891158647846,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","All","Leaving 2 out","All",0.803696129979225,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","All","Leaving 2 out","All",0.799327184940326,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","All","Leaving 2 out","All",0.811118923387631,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","All","Leaving 2 out","All",0.819879177625211,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"19","All","Leaving 2 out","All",0.80040030827404,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","All","Leaving 2 out","All",0.810776635436517,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","All","Leaving 2 out","All",0.802311831261642,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","All","Leaving 2 out","All",0.803176237924302,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","All","Leaving 2 out","All",0.809403603560556,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","All","Leaving 2 out","All",0.811021606964801,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","All","Leaving 2 out","All",0.792547512443414,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26","All","Leaving 2 out","All",0.811391535215604,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","All","Leaving 2 out","All",0.807022590176657,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","All","Leaving 2 out","All",0.818814328624093,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29","All","Leaving 2 out","All",0.827574582861525,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","All","Leaving 2 out","All",0.808095713510391,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31","All","Leaving 2 out","All",0.818472040672818,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","All","Leaving 2 out","All",0.810007236497978,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33","All","Leaving 2 out","All",0.810871643160625,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","All","Leaving 2 out","All",0.817099008796924,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","All","Leaving 2 out","All",0.818717012201122,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36","All","Leaving 2 out","All",0.80024291767973,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","All","Leaving 2 out","All",0.790827561507995,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","All","Leaving 2 out","All",0.802619299955479,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","All","Leaving 2 out","All",0.811379554192964,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","All","Leaving 2 out","All",0.79190068484182,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","All","Leaving 2 out","All",0.802277012004233,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","All","Leaving 2 out","All",0.793812207829384,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","All","Leaving 2 out","All",0.794676614492097,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","All","Leaving 2 out","All",0.800903980128451,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","All","Leaving 2 out","All",0.802521983532501,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","All","Leaving 2 out","All",0.784047889011207,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","All","Leaving 2 out","All",0.798250354916557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"48","All","Leaving 2 out","All",0.807010609154065,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","All","Leaving 2 out","All",0.787531739802889,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","All","Leaving 2 out","All",0.797908066965342,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","All","Leaving 2 out","All",0.78944326279046,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","All","Leaving 2 out","All",0.790307669453188,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","All","Leaving 2 out","All",0.796535035089482,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","All","Leaving 2 out","All",0.798153038493637,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","All","Leaving 2 out","All",0.779678943972269,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","All","Leaving 2 out","All",0.81880234760139,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"57","All","Leaving 2 out","All",0.799323478250182,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","All","Leaving 2 out","All",0.809699805412689,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","All","Leaving 2 out","All",0.801235001237913,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","All","Leaving 2 out","All",0.80209940790053,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","All","Leaving 2 out","All",0.808326773536832,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","All","Leaving 2 out","All",0.809944776941004,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","All","Leaving 2 out","All",0.791470682419555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","All","Leaving 2 out","All",0.808083732487784,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","All","Leaving 2 out","All",0.818460059650196,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","All","Leaving 2 out","All",0.809995255475364,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","All","Leaving 2 out","All",0.810859662138028,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","All","Leaving 2 out","All",0.817087027774339,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","All","Leaving 2 out","All",0.818705031178501,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","All","Leaving 2 out","All",0.80023093665706,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","All","Leaving 2 out","All",0.798981190299099,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","All","Leaving 2 out","All",0.790516386124215,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","All","Leaving 2 out","All",0.791380792786791,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","All","Leaving 2 out","All",0.797608158423114,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","All","Leaving 2 out","All",0.799226161827379,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","All","Leaving 2 out","All",0.780752067305915,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","All","Leaving 2 out","All",0.800892713286627,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","All","Leaving 2 out","All",0.801757119949297,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","All","Leaving 2 out","All",0.807984485585643,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","All","Leaving 2 out","All",0.809602488989773,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","All","Leaving 2 out","All",0.791128394468442,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","All","Leaving 2 out","All",0.793292315774458,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","All","Leaving 2 out","All",0.79951968141081,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","All","Leaving 2 out","All",0.801137684814991,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","All","Leaving 2 out","All",0.78266359029361,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","All","Leaving 2 out","All",0.800384088073383,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","All","Leaving 2 out","All",0.802002091477612,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"88","All","Leaving 2 out","All",0.783527996956267,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","All","Leaving 2 out","All",0.80822945711394,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","All","Leaving 2 out","All",0.789755362592524,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91","All","Leaving 2 out","All",0.79137336599671,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","By gender","Leaving 1 out","Female",0.797286277942079,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"93","By gender","Leaving 1 out","Male",0.831796253695598,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","By gender","Leaving 1 out","Female",0.807677627434779,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","By gender","Leaving 1 out","Male",0.840670570461754,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","By gender","Leaving 1 out","Female",0.789248241212183,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","By gender","Leaving 1 out","Male",0.824375946521437,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","By gender","Leaving 1 out","Female",0.785754513132287,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","By gender","Leaving 1 out","Male",0.817852514544043,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","By gender","Leaving 1 out","Female",0.798491728375831,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101","By gender","Leaving 1 out","Male",0.829000489435152,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"102","By gender","Leaving 1 out","Female",0.792121817218076,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103","By gender","Leaving 1 out","Male",0.826466070132405,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"104","By gender","Leaving 1 out","Female",0.783622995502554,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","By gender","Leaving 1 out","Male",0.821421350615061,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"106","By gender","Leaving 1 out","Female",0.796018915933943,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","By gender","Leaving 1 out","Male",0.831095435766323,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","By gender","Leaving 1 out","Female",0.786121967277233,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"109","By gender","Leaving 1 out","Male",0.826466070132405,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","By gender","Leaving 1 out","Female",0.791957262614696,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","By gender","Leaving 1 out","Male",0.821103796220971,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","By gender","Leaving 1 out","Female",0.796761898496059,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","By gender","Leaving 1 out","Male",0.829002840544246,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","By gender","Leaving 1 out","Female",0.796049459790795,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","By gender","Leaving 1 out","Male",0.832091400549884,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","By gender","Leaving 1 out","Female",0.776470918904426,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117","By gender","Leaving 1 out","Male",0.812716173102115,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","By education","Leaving 1 out","More than Secondary",0.772984446805557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","By education","Leaving 1 out","Up to Secondary",0.803991131130933,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","By education","Leaving 1 out","More than Secondary",0.790207103145674,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","By education","Leaving 1 out","Up to Secondary",0.807381500258821,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","By education","Leaving 1 out","More than Secondary",0.763201161828401,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","By education","Leaving 1 out","Up to Secondary",0.791575065040391,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","By education","Leaving 1 out","More than Secondary",0.764953988334273,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","By education","Leaving 1 out","Up to Secondary",0.787780662634372,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","By education","Leaving 1 out","More than Secondary",0.767491903298996,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","By education","Leaving 1 out","Up to Secondary",0.803461015700654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"128","By education","Leaving 1 out","More than Secondary",0.779647956175658,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","By education","Leaving 1 out","Up to Secondary",0.81327508448555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","By education","Leaving 1 out","More than Secondary",0.762282658622234,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","By education","Leaving 1 out","Up to Secondary",0.789649284454594,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","By education","Leaving 1 out","More than Secondary",0.78245373874193,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133","By education","Leaving 1 out","Up to Secondary",0.797688862397469,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","By education","Leaving 1 out","More than Secondary",0.770896890831972,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","By education","Leaving 1 out","Up to Secondary",0.792610831425847,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","By education","Leaving 1 out","More than Secondary",0.779692020983112,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","By education","Leaving 1 out","Up to Secondary",0.789719365411657,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","By education","Leaving 1 out","More than Secondary",0.776655166892777,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","By education","Leaving 1 out","Up to Secondary",0.797276482191873,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","By education","Leaving 1 out","More than Secondary",0.77367882142369,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","By education","Leaving 1 out","Up to Secondary",0.797673571375571,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142","By education","Leaving 1 out","More than Secondary",0.77367882142369,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143","By education","Leaving 1 out","Up to Secondary",0.797673571375571,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","By age","Leaving 1 out","25-54 yr",0.817261865103985,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145","By age","Leaving 1 out","55+ yr",0.796144057034921,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146","By age","Leaving 1 out","<25 yr",0.834312342353383,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147","By age","Leaving 1 out","25-54 yr",0.827328171539035,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","By age","Leaving 1 out","55+ yr",0.808895679396521,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149","By age","Leaving 1 out","<25 yr",0.833780196532036,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","By age","Leaving 1 out","25-54 yr",0.807143555510098,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","By age","Leaving 1 out","55+ yr",0.786859823053184,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","By age","Leaving 1 out","<25 yr",0.832343935782729,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","By age","Leaving 1 out","25-54 yr",0.804527388070764,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","By age","Leaving 1 out","55+ yr",0.778235689678463,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155","By age","Leaving 1 out","<25 yr",0.811970042523555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","By age","Leaving 1 out","25-54 yr",0.816064777772435,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","By age","Leaving 1 out","55+ yr",0.78915787806824,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","By age","Leaving 1 out","<25 yr",0.824429238075487,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","By age","Leaving 1 out","25-54 yr",0.811028003722267,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","By age","Leaving 1 out","55+ yr",0.790857278865125,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","By age","Leaving 1 out","<25 yr",0.827639205646594,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","By age","Leaving 1 out","25-54 yr",0.805132800542316,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","By age","Leaving 1 out","55+ yr",0.779943006751635,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","By age","Leaving 1 out","<25 yr",0.827520281758005,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","By age","Leaving 1 out","25-54 yr",0.814777442909478,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","By age","Leaving 1 out","55+ yr",0.796290312140855,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","By age","Leaving 1 out","<25 yr",0.833289431099574,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","By age","Leaving 1 out","25-54 yr",0.806694963691762,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","By age","Leaving 1 out","55+ yr",0.790857278865125,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","By age","Leaving 1 out","<25 yr",0.825125992264878,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","By age","Leaving 1 out","25-54 yr",0.808571805130415,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","By age","Leaving 1 out","55+ yr",0.796647091783341,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","By age","Leaving 1 out","<25 yr",0.822807175057132,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","By age","Leaving 1 out","25-54 yr",0.813618235390049,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","By age","Leaving 1 out","55+ yr",0.795898597311492,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","By age","Leaving 1 out","<25 yr",0.831943947327658,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177","By age","Leaving 1 out","25-54 yr",0.814250771537337,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","By age","Leaving 1 out","55+ yr",0.795206164646373,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","By age","Leaving 1 out","<25 yr",0.840158907921727,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","By age","Leaving 1 out","25-54 yr",0.796964267469034,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"181","By age","Leaving 1 out","55+ yr",0.776151767651338,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","By age","Leaving 1 out","<25 yr",0.813988977062962,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"183","By gender","Leaving 2 out","Female",0.814914115252932,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"184","By gender","Leaving 2 out","Male",0.848171274457446,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"185","By gender","Leaving 2 out","Female",0.794641790408046,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"186","By gender","Leaving 2 out","Male",0.830066136745964,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"187","By gender","Leaving 2 out","Female",0.790798689520056,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","By gender","Leaving 2 out","Male",0.822817878993319,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"189","By gender","Leaving 2 out","Female",0.804809626288026,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","By gender","Leaving 2 out","Male",0.8352045177612,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"191","By gender","Leaving 2 out","Female",0.797286277942079,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"192","By gender","Leaving 2 out","Male",0.831796253695598,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","By gender","Leaving 2 out","Female",0.7884540201274,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","By gender","Leaving 2 out","Male",0.82678325240555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","By gender","Leaving 2 out","Female",0.802089532602012,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"196","By gender","Leaving 2 out","Male",0.837532235907006,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197","By gender","Leaving 2 out","Female",0.79120288907954,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","By gender","Leaving 2 out","Male",0.831796253695598,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"199","By gender","Leaving 2 out","Female",0.797621713950763,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200","By gender","Leaving 2 out","Male",0.826430414189901,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","By gender","Leaving 2 out","Female",0.802906813420303,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"202","By gender","Leaving 2 out","Male",0.835207130104662,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"203","By gender","Leaving 2 out","Female",0.802123130844569,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204","By gender","Leaving 2 out","Male",0.838638863444277,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","By gender","Leaving 2 out","Female",0.780586735869483,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206","By gender","Leaving 2 out","Male",0.817110832946739,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","By gender","Leaving 2 out","Female",0.80607227484999,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"208","By gender","Leaving 2 out","Male",0.839926488708341,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","By gender","Leaving 2 out","Female",0.802229173962063,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"210","By gender","Leaving 2 out","Male",0.832678230955673,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"211","By gender","Leaving 2 out","Female",0.816240110730004,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212","By gender","Leaving 2 out","Male",0.84506486972354,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","By gender","Leaving 2 out","Female",0.807677627434779,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","By gender","Leaving 2 out","Male",0.840670570461754,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","By gender","Leaving 2 out","Female",0.799884504569386,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216","By gender","Leaving 2 out","Male",0.836643604367923,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","By gender","Leaving 2 out","Female",0.813520017043962,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"218","By gender","Leaving 2 out","Male",0.84739258786936,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","By gender","Leaving 2 out","Female",0.802633373521522,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"220","By gender","Leaving 2 out","Male",0.840670570461754,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","By gender","Leaving 2 out","Female",0.809052198392725,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","By gender","Leaving 2 out","Male",0.83629076615231,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","By gender","Leaving 2 out","Female",0.814337297862326,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"224","By gender","Leaving 2 out","Male",0.845067482067004,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225","By gender","Leaving 2 out","Female",0.813553615286491,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"226","By gender","Leaving 2 out","Male",0.848499215406648,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227","By gender","Leaving 2 out","Female",0.792017220311467,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","By gender","Leaving 2 out","Male",0.826971184909128,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229","By gender","Leaving 2 out","Female",0.781956849117165,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230","By gender","Leaving 2 out","Male",0.814573093244231,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","By gender","Leaving 2 out","Female",0.795967785885132,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","By gender","Leaving 2 out","Male",0.826959732012108,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"233","By gender","Leaving 2 out","Female",0.789248241212183,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"234","By gender","Leaving 2 out","Male",0.824375946521437,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","By gender","Leaving 2 out","Female",0.779612179724566,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"236","By gender","Leaving 2 out","Male",0.818538466656456,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","By gender","Leaving 2 out","Female",0.793247692199092,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238","By gender","Leaving 2 out","Male",0.829287450157882,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","By gender","Leaving 2 out","Female",0.782361048676642,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240","By gender","Leaving 2 out","Male",0.824375946521437,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241","By gender","Leaving 2 out","Female",0.788779873547849,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242","By gender","Leaving 2 out","Male",0.818185628440804,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","By gender","Leaving 2 out","Female",0.794064973017411,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"244","By gender","Leaving 2 out","Male",0.826962344355524,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"245","By gender","Leaving 2 out","Female",0.793281290441643,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246","By gender","Leaving 2 out","Male",0.830394077695226,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"247","By gender","Leaving 2 out","Female",0.771744895466618,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","By gender","Leaving 2 out","Male",0.808866047197676,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"249","By gender","Leaving 2 out","Female",0.792124684997183,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","By gender","Leaving 2 out","Male",0.819711474259413,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","By gender","Leaving 2 out","Female",0.785754513132287,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","By gender","Leaving 2 out","Male",0.817852514544043,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"253","By gender","Leaving 2 out","Female",0.775769078836648,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","By gender","Leaving 2 out","Male",0.81129020890378,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"255","By gender","Leaving 2 out","Female",0.789404591311177,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"256","By gender","Leaving 2 out","Male",0.822039192405242,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"257","By gender","Leaving 2 out","Female",0.778517947788724,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"258","By gender","Leaving 2 out","Male",0.817852514544043,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259","By gender","Leaving 2 out","Female",0.784936772659965,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"260","By gender","Leaving 2 out","Male",0.810937370688154,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"261","By gender","Leaving 2 out","Female",0.790221872129466,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"262","By gender","Leaving 2 out","Male",0.81971408660291,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","By gender","Leaving 2 out","Female",0.789438189553687,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"264","By gender","Leaving 2 out","Male",0.823145819942512,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"265","By gender","Leaving 2 out","Female",0.767901794578643,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"266","By gender","Leaving 2 out","Male",0.80161778944498,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"267","By gender","Leaving 2 out","Female",0.798491728375831,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"268","By gender","Leaving 2 out","Male",0.829000489435152,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"269","By gender","Leaving 2 out","Female",0.789780015604535,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"270","By gender","Leaving 2 out","Male",0.82367684767169,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"271","By gender","Leaving 2 out","Female",0.803415528079085,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"272","By gender","Leaving 2 out","Male",0.834425831173165,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"273","By gender","Leaving 2 out","Female",0.792528884556646,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","By gender","Leaving 2 out","Male",0.829000489435152,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"275","By gender","Leaving 2 out","Female",0.798947709427857,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"276","By gender","Leaving 2 out","Male",0.823324009456049,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"277","By gender","Leaving 2 out","Female",0.804232808897428,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"278","By gender","Leaving 2 out","Male",0.832100725370761,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","By gender","Leaving 2 out","Female",0.803449126321668,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"280","By gender","Leaving 2 out","Male",0.835532458710426,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"281","By gender","Leaving 2 out","Female",0.781912731346617,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"282","By gender","Leaving 2 out","Male",0.814004428212871,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"283","By gender","Leaving 2 out","Female",0.783622995502554,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"284","By gender","Leaving 2 out","Male",0.821421350615061,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"285","By gender","Leaving 2 out","Female",0.796018915933943,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"286","By gender","Leaving 2 out","Male",0.831095435766323,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"287","By gender","Leaving 2 out","Female",0.786121967277233,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","By gender","Leaving 2 out","Male",0.826466070132405,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"289","By gender","Leaving 2 out","Female",0.791957262614696,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"290","By gender","Leaving 2 out","Male",0.821103796220971,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"291","By gender","Leaving 2 out","Female",0.796761898496059,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","By gender","Leaving 2 out","Male",0.829002840544246,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"293","By gender","Leaving 2 out","Female",0.796049459790795,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"294","By gender","Leaving 2 out","Male",0.832091400549884,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"295","By gender","Leaving 2 out","Female",0.776470918904426,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"296","By gender","Leaving 2 out","Male",0.812716173102115,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"297","By gender","Leaving 2 out","Female",0.787059921918552,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298","By gender","Leaving 2 out","Male",0.82600456581749,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"299","By gender","Leaving 2 out","Female",0.77617327839608,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300","By gender","Leaving 2 out","Male",0.821421350615061,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"301","By gender","Leaving 2 out","Female",0.782592103267344,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"302","By gender","Leaving 2 out","Male",0.814902744100401,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303","By gender","Leaving 2 out","Female",0.787877202736799,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","By gender","Leaving 2 out","Male",0.823679460015136,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305","By gender","Leaving 2 out","Female",0.787093520161001,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306","By gender","Leaving 2 out","Male",0.827111193354769,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"307","By gender","Leaving 2 out","Female",0.765557125185992,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"308","By gender","Leaving 2 out","Male",0.805583162857252,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"309","By gender","Leaving 2 out","Female",0.789808790870617,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310","By gender","Leaving 2 out","Male",0.831095435766323,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","By gender","Leaving 2 out","Female",0.796227615741902,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312","By gender","Leaving 2 out","Male",0.825651727601834,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"313","By gender","Leaving 2 out","Female",0.801512715211332,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"314","By gender","Leaving 2 out","Male",0.834428443516578,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","By gender","Leaving 2 out","Female",0.800729032635568,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316","By gender","Leaving 2 out","Male",0.837860176856224,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317","By gender","Leaving 2 out","Female",0.779192637660538,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318","By gender","Leaving 2 out","Male",0.816332146358678,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"319","By gender","Leaving 2 out","Female",0.785340972219413,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320","By gender","Leaving 2 out","Male",0.821103796220971,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321","By gender","Leaving 2 out","Female",0.79062607168891,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322","By gender","Leaving 2 out","Male",0.829002840544246,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323","By gender","Leaving 2 out","Female",0.789842389113176,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324","By gender","Leaving 2 out","Male",0.832091400549884,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325","By gender","Leaving 2 out","Female",0.768305994138123,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326","By gender","Leaving 2 out","Male",0.812716173102115,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327","By gender","Leaving 2 out","Female",0.797044896560119,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328","By gender","Leaving 2 out","Male",0.823326621799525,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329","By gender","Leaving 2 out","Female",0.796261213984383,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330","By gender","Leaving 2 out","Male",0.826758355139137,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331","By gender","Leaving 2 out","Female",0.774724819009315,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"332","By gender","Leaving 2 out","Male",0.805230324641597,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333","By gender","Leaving 2 out","Female",0.801546313453927,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334","By gender","Leaving 2 out","Male",0.835535071053873,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"335","By gender","Leaving 2 out","Female",0.780009918478881,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"336","By gender","Leaving 2 out","Male",0.814007040556333,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337","By gender","Leaving 2 out","Female",0.779226235903122,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338","By gender","Leaving 2 out","Male",0.817438773895972,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339","By education","Leaving 2 out","More than Secondary",0.791272051539079,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340","By education","Leaving 2 out","Up to Secondary",0.815479669862763,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","By education","Leaving 2 out","More than Secondary",0.761265450075434,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342","By education","Leaving 2 out","Up to Secondary",0.797916964064486,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","By education","Leaving 2 out","More than Secondary",0.763213035081965,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"344","By education","Leaving 2 out","Up to Secondary",0.793700961391112,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"345","By education","Leaving 2 out","More than Secondary",0.766032940598324,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"346","By education","Leaving 2 out","Up to Secondary",0.811123575909241,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347","By education","Leaving 2 out","More than Secondary",0.77953966601684,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"348","By education","Leaving 2 out","Up to Secondary",0.822028096781322,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"349","By education","Leaving 2 out","More than Secondary",0.760244890957487,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"350","By education","Leaving 2 out","Up to Secondary",0.795777207858085,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"351","By education","Leaving 2 out","More than Secondary",0.782657202201583,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352","By education","Leaving 2 out","Up to Secondary",0.804710072239019,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353","By education","Leaving 2 out","More than Secondary",0.769816260079418,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354","By education","Leaving 2 out","Up to Secondary",0.799067815603878,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355","By education","Leaving 2 out","More than Secondary",0.779588626914005,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"356","By education","Leaving 2 out","Up to Secondary",0.79585507558809,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"357","By education","Leaving 2 out","More than Secondary",0.776214344591422,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"358","By education","Leaving 2 out","Up to Secondary",0.804251872010645,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"359","By education","Leaving 2 out","More than Secondary",0.772984446805557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"360","By education","Leaving 2 out","Up to Secondary",0.803991131130933,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"361","By education","Leaving 2 out","More than Secondary",0.772984446805557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362","By education","Leaving 2 out","Up to Secondary",0.803991131130933,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"363","By education","Leaving 2 out","More than Secondary",0.78040173489779,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"364","By education","Leaving 2 out","Up to Secondary",0.801684040873304,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"365","By education","Leaving 2 out","More than Secondary",0.782349319904318,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"366","By education","Leaving 2 out","Up to Secondary",0.79746803819989,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"367","By education","Leaving 2 out","More than Secondary",0.785169225420665,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"368","By education","Leaving 2 out","Up to Secondary",0.81489065271796,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"369","By education","Leaving 2 out","More than Secondary",0.798675950839187,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"370","By education","Leaving 2 out","Up to Secondary",0.825795173590162,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"371","By education","Leaving 2 out","More than Secondary",0.779381175779845,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"372","By education","Leaving 2 out","Up to Secondary",0.799544284666805,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373","By education","Leaving 2 out","More than Secondary",0.801793487023943,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374","By education","Leaving 2 out","Up to Secondary",0.808477149047847,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"375","By education","Leaving 2 out","More than Secondary",0.78895254490177,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"376","By education","Leaving 2 out","Up to Secondary",0.802834892412654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"377","By education","Leaving 2 out","More than Secondary",0.798724911736361,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"378","By education","Leaving 2 out","Up to Secondary",0.799622152396915,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"379","By education","Leaving 2 out","More than Secondary",0.795350629413773,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"380","By education","Leaving 2 out","Up to Secondary",0.808018948819459,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"381","By education","Leaving 2 out","More than Secondary",0.790207103145674,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"382","By education","Leaving 2 out","Up to Secondary",0.807381500258821,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"383","By education","Leaving 2 out","More than Secondary",0.790207103145674,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"384","By education","Leaving 2 out","Up to Secondary",0.807381500258821,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385","By education","Leaving 2 out","More than Secondary",0.752342718440671,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"386","By education","Leaving 2 out","Up to Secondary",0.779905332401689,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"387","By education","Leaving 2 out","More than Secondary",0.755162623957015,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"388","By education","Leaving 2 out","Up to Secondary",0.797327946919792,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"389","By education","Leaving 2 out","More than Secondary",0.768669349375557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"390","By education","Leaving 2 out","Up to Secondary",0.808232467791956,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"391","By education","Leaving 2 out","More than Secondary",0.749374574316179,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"392","By education","Leaving 2 out","Up to Secondary",0.781981578868663,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"393","By education","Leaving 2 out","More than Secondary",0.771786885560298,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"394","By education","Leaving 2 out","Up to Secondary",0.79091444324958,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"395","By education","Leaving 2 out","More than Secondary",0.758945943438109,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396","By education","Leaving 2 out","Up to Secondary",0.785272186614446,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"397","By education","Leaving 2 out","More than Secondary",0.768718310272713,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"398","By education","Leaving 2 out","Up to Secondary",0.782059446598704,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399","By education","Leaving 2 out","More than Secondary",0.765344027950125,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"400","By education","Leaving 2 out","Up to Secondary",0.790456243021184,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"401","By education","Leaving 2 out","More than Secondary",0.763201161828401,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402","By education","Leaving 2 out","Up to Secondary",0.791575065040391,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"403","By education","Leaving 2 out","More than Secondary",0.763201161828401,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"404","By education","Leaving 2 out","Up to Secondary",0.791575065040391,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"405","By education","Leaving 2 out","More than Secondary",0.75711020896356,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"406","By education","Leaving 2 out","Up to Secondary",0.793111944246376,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"407","By education","Leaving 2 out","More than Secondary",0.770616934382079,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408","By education","Leaving 2 out","Up to Secondary",0.804016465118557,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","By education","Leaving 2 out","More than Secondary",0.751322159322723,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410","By education","Leaving 2 out","Up to Secondary",0.777765576195245,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"411","By education","Leaving 2 out","More than Secondary",0.773734470566824,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"412","By education","Leaving 2 out","Up to Secondary",0.786698440576268,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"413","By education","Leaving 2 out","More than Secondary",0.760893528444654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414","By education","Leaving 2 out","Up to Secondary",0.781056183941056,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415","By education","Leaving 2 out","More than Secondary",0.770665895279237,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416","By education","Leaving 2 out","Up to Secondary",0.777843443925332,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"417","By education","Leaving 2 out","More than Secondary",0.767291612956644,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"418","By education","Leaving 2 out","Up to Secondary",0.786240240347782,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"419","By education","Leaving 2 out","More than Secondary",0.764953988334273,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"420","By education","Leaving 2 out","Up to Secondary",0.787780662634372,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421","By education","Leaving 2 out","More than Secondary",0.764953988334273,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422","By education","Leaving 2 out","Up to Secondary",0.787780662634372,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423","By education","Leaving 2 out","More than Secondary",0.773436839898441,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"424","By education","Leaving 2 out","Up to Secondary",0.821439079636631,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"425","By education","Leaving 2 out","More than Secondary",0.754142064839071,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"426","By education","Leaving 2 out","Up to Secondary",0.795188190713372,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"427","By education","Leaving 2 out","More than Secondary",0.776554376083183,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"428","By education","Leaving 2 out","Up to Secondary",0.804121055094401,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429","By education","Leaving 2 out","More than Secondary",0.763713433961002,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"430","By education","Leaving 2 out","Up to Secondary",0.798478798459148,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"431","By education","Leaving 2 out","More than Secondary",0.773485800795593,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"432","By education","Leaving 2 out","Up to Secondary",0.795266058443369,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"433","By education","Leaving 2 out","More than Secondary",0.770111518473025,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"434","By education","Leaving 2 out","Up to Secondary",0.803662854865899,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"435","By education","Leaving 2 out","More than Secondary",0.767491903298996,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"436","By education","Leaving 2 out","Up to Secondary",0.803461015700654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"437","By education","Leaving 2 out","More than Secondary",0.767491903298996,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"438","By education","Leaving 2 out","Up to Secondary",0.803461015700654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"439","By education","Leaving 2 out","More than Secondary",0.767648790257603,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"440","By education","Leaving 2 out","Up to Secondary",0.80609271158553,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"441","By education","Leaving 2 out","More than Secondary",0.790061101501722,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"442","By education","Leaving 2 out","Up to Secondary",0.815025575966445,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"443","By education","Leaving 2 out","More than Secondary",0.777220159379534,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"444","By education","Leaving 2 out","Up to Secondary",0.809383319331308,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"445","By education","Leaving 2 out","More than Secondary",0.786992526214117,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"446","By education","Leaving 2 out","Up to Secondary",0.806170579315566,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"447","By education","Leaving 2 out","More than Secondary",0.783618243891532,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"448","By education","Leaving 2 out","Up to Secondary",0.81456737573801,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"449","By education","Leaving 2 out","More than Secondary",0.779647956175658,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"450","By education","Leaving 2 out","Up to Secondary",0.81327508448555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"451","By education","Leaving 2 out","More than Secondary",0.779647956175658,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"452","By education","Leaving 2 out","Up to Secondary",0.81327508448555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"453","By education","Leaving 2 out","More than Secondary",0.770766326442352,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454","By education","Leaving 2 out","Up to Secondary",0.788774687043191,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"455","By education","Leaving 2 out","More than Secondary",0.757925384320167,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"456","By education","Leaving 2 out","Up to Secondary",0.783132430408034,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"457","By education","Leaving 2 out","More than Secondary",0.767697751154761,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"458","By education","Leaving 2 out","Up to Secondary",0.779919690392277,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"459","By education","Leaving 2 out","More than Secondary",0.764323468832181,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"460","By education","Leaving 2 out","Up to Secondary",0.788316486814803,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"461","By education","Leaving 2 out","More than Secondary",0.762282658622234,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"462","By education","Leaving 2 out","Up to Secondary",0.789649284454594,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"463","By education","Leaving 2 out","More than Secondary",0.762282658622234,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"464","By education","Leaving 2 out","Up to Secondary",0.789649284454594,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"465","By education","Leaving 2 out","More than Secondary",0.780337695564282,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"466","By education","Leaving 2 out","Up to Secondary",0.792065294789033,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"467","By education","Leaving 2 out","More than Secondary",0.790110062398869,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468","By education","Leaving 2 out","Up to Secondary",0.788852554773272,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"469","By education","Leaving 2 out","More than Secondary",0.786735780076287,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"470","By education","Leaving 2 out","Up to Secondary",0.797249351195755,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"471","By education","Leaving 2 out","More than Secondary",0.78245373874193,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"472","By education","Leaving 2 out","Up to Secondary",0.797688862397469,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"473","By education","Leaving 2 out","More than Secondary",0.78245373874193,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"474","By education","Leaving 2 out","Up to Secondary",0.797688862397469,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"475","By education","Leaving 2 out","More than Secondary",0.777269120276691,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"476","By education","Leaving 2 out","Up to Secondary",0.783210298138096,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"477","By education","Leaving 2 out","More than Secondary",0.773894837954112,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478","By education","Leaving 2 out","Up to Secondary",0.791607094560594,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"479","By education","Leaving 2 out","More than Secondary",0.770896890831972,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480","By education","Leaving 2 out","Up to Secondary",0.792610831425847,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"481","By education","Leaving 2 out","More than Secondary",0.770896890831972,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"482","By education","Leaving 2 out","Up to Secondary",0.792610831425847,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"483","By education","Leaving 2 out","More than Secondary",0.783667204788698,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"484","By education","Leaving 2 out","Up to Secondary",0.788394354544856,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"485","By education","Leaving 2 out","More than Secondary",0.779692020983112,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"486","By education","Leaving 2 out","Up to Secondary",0.789719365411657,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"487","By education","Leaving 2 out","More than Secondary",0.779692020983112,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"488","By education","Leaving 2 out","Up to Secondary",0.789719365411657,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489","By education","Leaving 2 out","More than Secondary",0.776655166892777,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490","By education","Leaving 2 out","Up to Secondary",0.797276482191873,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491","By education","Leaving 2 out","More than Secondary",0.776655166892777,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492","By education","Leaving 2 out","Up to Secondary",0.797276482191873,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"493","By education","Leaving 2 out","More than Secondary",0.77367882142369,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494","By education","Leaving 2 out","Up to Secondary",0.797673571375571,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495","By age","Leaving 2 out","25-54 yr",0.83581543584066,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"496","By age","Leaving 2 out","55+ yr",0.816774144088673,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"497","By age","Leaving 2 out","<25 yr",0.841734745998058,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"498","By age","Leaving 2 out","25-54 yr",0.813612358208817,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"499","By age","Leaving 2 out","55+ yr",0.792289859262733,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"500","By age","Leaving 2 out","<25 yr",0.840154859173803,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"501","By age","Leaving 2 out","25-54 yr",0.810734574025528,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"502","By age","Leaving 2 out","55+ yr",0.78270748884639,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"503","By age","Leaving 2 out","<25 yr",0.817743576588729,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"504","By age","Leaving 2 out","25-54 yr",0.823425702697453,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"505","By age","Leaving 2 out","55+ yr",0.794843253723918,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"506","By age","Leaving 2 out","<25 yr",0.831448691695843,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"507","By age","Leaving 2 out","25-54 yr",0.817261865103985,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"508","By age","Leaving 2 out","55+ yr",0.796144057034921,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"509","By age","Leaving 2 out","<25 yr",0.834312342353383,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"510","By age","Leaving 2 out","25-54 yr",0.811400527744295,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511","By age","Leaving 2 out","55+ yr",0.784604507816576,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"512","By age","Leaving 2 out","<25 yr",0.834848839746622,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"513","By age","Leaving 2 out","25-54 yr",0.822009634348234,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"514","By age","Leaving 2 out","55+ yr",0.802768180471262,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"515","By age","Leaving 2 out","<25 yr",0.841194904022357,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"516","By age","Leaving 2 out","25-54 yr",0.813118907208692,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"517","By age","Leaving 2 out","55+ yr",0.796144057034921,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518","By age","Leaving 2 out","<25 yr",0.83221512130417,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"519","By age","Leaving 2 out","25-54 yr",0.815183432791137,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"520","By age","Leaving 2 out","55+ yr",0.803164602296248,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"521","By age","Leaving 2 out","<25 yr",0.829664422375664,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"522","By age","Leaving 2 out","25-54 yr",0.820734506076783,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"523","By age","Leaving 2 out","55+ yr",0.802332941771966,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"524","By age","Leaving 2 out","<25 yr",0.839714871873235,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"525","By age","Leaving 2 out","25-54 yr",0.821430295838853,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"526","By age","Leaving 2 out","55+ yr",0.801563572144059,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"527","By age","Leaving 2 out","<25 yr",0.848751328526721,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528","By age","Leaving 2 out","25-54 yr",0.802415141363674,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"529","By age","Leaving 2 out","55+ yr",0.780392019927369,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"530","By age","Leaving 2 out","<25 yr",0.819964404582064,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"531","By age","Leaving 2 out","25-54 yr",0.824685295287321,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"532","By age","Leaving 2 out","55+ yr",0.806458328553409,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533","By age","Leaving 2 out","<25 yr",0.839569498770339,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"534","By age","Leaving 2 out","25-54 yr",0.8218075111041,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"535","By age","Leaving 2 out","55+ yr",0.796875958137053,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536","By age","Leaving 2 out","<25 yr",0.817158216185263,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"537","By age","Leaving 2 out","25-54 yr",0.834498639776007,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538","By age","Leaving 2 out","55+ yr",0.809011723014579,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539","By age","Leaving 2 out","<25 yr",0.830863331292371,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540","By age","Leaving 2 out","25-54 yr",0.827328171539035,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"541","By age","Leaving 2 out","55+ yr",0.808895679396521,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"542","By age","Leaving 2 out","<25 yr",0.833780196532036,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"543","By age","Leaving 2 out","25-54 yr",0.822473464822858,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"544","By age","Leaving 2 out","55+ yr",0.79877297710724,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"545","By age","Leaving 2 out","<25 yr",0.834263479343152,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"546","By age","Leaving 2 out","25-54 yr",0.833082571426793,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"547","By age","Leaving 2 out","55+ yr",0.816936649761938,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548","By age","Leaving 2 out","<25 yr",0.840609543618876,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549","By age","Leaving 2 out","25-54 yr",0.824191844287238,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"550","By age","Leaving 2 out","55+ yr",0.808895679396521,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"551","By age","Leaving 2 out","<25 yr",0.8316297609007,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"552","By age","Leaving 2 out","25-54 yr",0.826256369869652,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"553","By age","Leaving 2 out","55+ yr",0.817333071586915,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554","By age","Leaving 2 out","<25 yr",0.8290790619722,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"555","By age","Leaving 2 out","25-54 yr",0.831807443155343,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"556","By age","Leaving 2 out","55+ yr",0.816501411062627,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"557","By age","Leaving 2 out","<25 yr",0.839129511469753,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"558","By age","Leaving 2 out","25-54 yr",0.83250323291743,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"559","By age","Leaving 2 out","55+ yr",0.815732041434723,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"560","By age","Leaving 2 out","<25 yr",0.848165968123229,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"561","By age","Leaving 2 out","25-54 yr",0.813488078442288,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"562","By age","Leaving 2 out","55+ yr",0.794560489218025,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"563","By age","Leaving 2 out","<25 yr",0.819379044178578,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"564","By age","Leaving 2 out","25-54 yr",0.799604433472207,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"565","By age","Leaving 2 out","55+ yr",0.772391673311123,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"566","By age","Leaving 2 out","<25 yr",0.815578329360994,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"567","By age","Leaving 2 out","25-54 yr",0.812295562144107,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"568","By age","Leaving 2 out","55+ yr",0.78452743818865,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"569","By age","Leaving 2 out","<25 yr",0.829283444468118,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"570","By age","Leaving 2 out","25-54 yr",0.807143555510098,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"571","By age","Leaving 2 out","55+ yr",0.786859823053184,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"572","By age","Leaving 2 out","<25 yr",0.832343935782729,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"573","By age","Leaving 2 out","25-54 yr",0.800270387190948,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"574","By age","Leaving 2 out","55+ yr",0.774288692281315,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"575","By age","Leaving 2 out","<25 yr",0.832683592518882,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"576","By age","Leaving 2 out","25-54 yr",0.810879493794876,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577","By age","Leaving 2 out","55+ yr",0.792452364936002,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"578","By age","Leaving 2 out","<25 yr",0.839029656794628,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"579","By age","Leaving 2 out","25-54 yr",0.801988766655355,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"580","By age","Leaving 2 out","55+ yr",0.786859823053184,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"581","By age","Leaving 2 out","<25 yr",0.830049874076443,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"582","By age","Leaving 2 out","25-54 yr",0.804053292237749,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"583","By age","Leaving 2 out","55+ yr",0.792848786760991,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"584","By age","Leaving 2 out","<25 yr",0.827499175147941,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"585","By age","Leaving 2 out","25-54 yr",0.809604365523465,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"586","By age","Leaving 2 out","55+ yr",0.792017126236711,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"587","By age","Leaving 2 out","<25 yr",0.837549624645502,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"588","By age","Leaving 2 out","25-54 yr",0.810300155285449,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"589","By age","Leaving 2 out","55+ yr",0.791247756608797,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"590","By age","Leaving 2 out","<25 yr",0.846586081298982,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"591","By age","Leaving 2 out","25-54 yr",0.791285000810367,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"592","By age","Leaving 2 out","55+ yr",0.770076204392106,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"593","By age","Leaving 2 out","<25 yr",0.817799157354332,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"594","By age","Leaving 2 out","25-54 yr",0.809417777960784,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"595","By age","Leaving 2 out","55+ yr",0.7749450677723,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"596","By age","Leaving 2 out","<25 yr",0.806872161883048,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"597","By age","Leaving 2 out","25-54 yr",0.804527388070764,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"598","By age","Leaving 2 out","55+ yr",0.778235689678463,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"599","By age","Leaving 2 out","<25 yr",0.811970042523555,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"600","By age","Leaving 2 out","25-54 yr",0.797392603007707,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"601","By age","Leaving 2 out","55+ yr",0.76470632186496,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"602","By age","Leaving 2 out","<25 yr",0.810272309933816,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"603","By age","Leaving 2 out","25-54 yr",0.8080017096116,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"604","By age","Leaving 2 out","55+ yr",0.782869994519654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"605","By age","Leaving 2 out","<25 yr",0.816618374209543,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"606","By age","Leaving 2 out","25-54 yr",0.799110982472039,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"607","By age","Leaving 2 out","55+ yr",0.778235689678463,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"608","By age","Leaving 2 out","<25 yr",0.807638591491361,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"609","By age","Leaving 2 out","25-54 yr",0.801175508054491,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"610","By age","Leaving 2 out","55+ yr",0.783266416344633,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"611","By age","Leaving 2 out","<25 yr",0.805087892562865,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"612","By age","Leaving 2 out","25-54 yr",0.806726581340246,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"613","By age","Leaving 2 out","55+ yr",0.782434755820355,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"614","By age","Leaving 2 out","<25 yr",0.815138342060419,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"615","By age","Leaving 2 out","25-54 yr",0.807422371102213,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"616","By age","Leaving 2 out","55+ yr",0.781665386192451,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617","By age","Leaving 2 out","<25 yr",0.824174798713886,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"618","By age","Leaving 2 out","25-54 yr",0.788407216627004,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"619","By age","Leaving 2 out","55+ yr",0.760493833975742,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"620","By age","Leaving 2 out","<25 yr",0.795387874769245,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"621","By age","Leaving 2 out","25-54 yr",0.816064777772435,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"622","By age","Leaving 2 out","55+ yr",0.78915787806824,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"623","By age","Leaving 2 out","<25 yr",0.824429238075487,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"624","By age","Leaving 2 out","25-54 yr",0.810083731679558,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"625","By age","Leaving 2 out","55+ yr",0.776842086742482,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"626","By age","Leaving 2 out","<25 yr",0.823977425040933,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"627","By age","Leaving 2 out","25-54 yr",0.820692838283524,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"628","By age","Leaving 2 out","55+ yr",0.795005759397165,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"629","By age","Leaving 2 out","<25 yr",0.830323489316662,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"630","By age","Leaving 2 out","25-54 yr",0.811802111143972,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"631","By age","Leaving 2 out","55+ yr",0.78915787806824,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"632","By age","Leaving 2 out","<25 yr",0.821343706598483,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"633","By age","Leaving 2 out","25-54 yr",0.813866636726439,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"634","By age","Leaving 2 out","55+ yr",0.795402181222157,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"635","By age","Leaving 2 out","<25 yr",0.81879300767,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"636","By age","Leaving 2 out","25-54 yr",0.819417710012087,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"637","By age","Leaving 2 out","55+ yr",0.794570520697875,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"638","By age","Leaving 2 out","<25 yr",0.828843457167531,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"639","By age","Leaving 2 out","25-54 yr",0.820113499774064,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"640","By age","Leaving 2 out","55+ yr",0.793801151069973,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"641","By age","Leaving 2 out","<25 yr",0.837879913821017,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"642","By age","Leaving 2 out","25-54 yr",0.801098345298928,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"643","By age","Leaving 2 out","55+ yr",0.772629598853275,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"644","By age","Leaving 2 out","<25 yr",0.809092989876368,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"645","By age","Leaving 2 out","25-54 yr",0.805132800542316,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"646","By age","Leaving 2 out","55+ yr",0.779943006751635,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"647","By age","Leaving 2 out","<25 yr",0.827520281758005,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"648","By age","Leaving 2 out","25-54 yr",0.814777442909478,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"649","By age","Leaving 2 out","55+ yr",0.796290312140855,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"650","By age","Leaving 2 out","<25 yr",0.833289431099574,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"651","By age","Leaving 2 out","25-54 yr",0.806694963691762,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"652","By age","Leaving 2 out","55+ yr",0.790857278865125,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"653","By age","Leaving 2 out","<25 yr",0.825125992264878,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"654","By age","Leaving 2 out","25-54 yr",0.808571805130415,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"655","By age","Leaving 2 out","55+ yr",0.796647091783341,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"656","By age","Leaving 2 out","<25 yr",0.822807175057132,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"657","By age","Leaving 2 out","25-54 yr",0.813618235390049,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"658","By age","Leaving 2 out","55+ yr",0.795898597311492,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"659","By age","Leaving 2 out","<25 yr",0.831943947327658,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"660","By age","Leaving 2 out","25-54 yr",0.814250771537337,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"661","By age","Leaving 2 out","55+ yr",0.795206164646373,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"662","By age","Leaving 2 out","<25 yr",0.840158907921727,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"663","By age","Leaving 2 out","25-54 yr",0.796964267469034,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"664","By age","Leaving 2 out","55+ yr",0.776151767651338,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"665","By age","Leaving 2 out","<25 yr",0.813988977062962,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"666","By age","Leaving 2 out","25-54 yr",0.8086676633303,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"667","By age","Leaving 2 out","55+ yr",0.784767013489841,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"668","By age","Leaving 2 out","<25 yr",0.83372363736743,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"669","By age","Leaving 2 out","25-54 yr",0.799776936190771,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"670","By age","Leaving 2 out","55+ yr",0.779943006751635,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"671","By age","Leaving 2 out","<25 yr",0.824743854649257,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"672","By age","Leaving 2 out","25-54 yr",0.801841461773201,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"673","By age","Leaving 2 out","55+ yr",0.785163435314822,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"674","By age","Leaving 2 out","<25 yr",0.82219315572075,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"675","By age","Leaving 2 out","25-54 yr",0.807392535058932,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"676","By age","Leaving 2 out","55+ yr",0.784331774790542,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"677","By age","Leaving 2 out","<25 yr",0.832243605218294,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678","By age","Leaving 2 out","25-54 yr",0.808088324820903,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"679","By age","Leaving 2 out","55+ yr",0.783562405162636,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"680","By age","Leaving 2 out","<25 yr",0.841280061871806,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"681","By age","Leaving 2 out","25-54 yr",0.789073170345798,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"682","By age","Leaving 2 out","55+ yr",0.762390852945939,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"683","By age","Leaving 2 out","<25 yr",0.812493137927154,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"684","By age","Leaving 2 out","25-54 yr",0.810386042794788,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"685","By age","Leaving 2 out","55+ yr",0.796290312140855,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"686","By age","Leaving 2 out","<25 yr",0.831089918924986,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"687","By age","Leaving 2 out","25-54 yr",0.81245056837716,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"688","By age","Leaving 2 out","55+ yr",0.803327107969515,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"689","By age","Leaving 2 out","<25 yr",0.828539219996479,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"690","By age","Leaving 2 out","25-54 yr",0.818001641662897,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"691","By age","Leaving 2 out","55+ yr",0.802495447445236,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"692","By age","Leaving 2 out","<25 yr",0.838589669494048,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"693","By age","Leaving 2 out","25-54 yr",0.818697431424921,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"694","By age","Leaving 2 out","55+ yr",0.80172607781732,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"695","By age","Leaving 2 out","<25 yr",0.847626126147524,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"696","By age","Leaving 2 out","25-54 yr",0.799682276949719,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"697","By age","Leaving 2 out","55+ yr",0.780554525600622,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"698","By age","Leaving 2 out","<25 yr",0.81883920220288,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"699","By age","Leaving 2 out","25-54 yr",0.803559841237654,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"700","By age","Leaving 2 out","55+ yr",0.796647091783341,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"701","By age","Leaving 2 out","<25 yr",0.819559437278305,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"702","By age","Leaving 2 out","25-54 yr",0.80911091452333,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"703","By age","Leaving 2 out","55+ yr",0.795898597311492,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"704","By age","Leaving 2 out","<25 yr",0.829609886775861,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"705","By age","Leaving 2 out","25-54 yr",0.809806704285357,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"706","By age","Leaving 2 out","55+ yr",0.795206164646373,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"707","By age","Leaving 2 out","<25 yr",0.838646343429349,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"708","By age","Leaving 2 out","25-54 yr",0.790791549810197,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"709","By age","Leaving 2 out","55+ yr",0.776151767651338,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"710","By age","Leaving 2 out","<25 yr",0.80985941948469,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"711","By age","Leaving 2 out","25-54 yr",0.811175440105802,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"712","By age","Leaving 2 out","55+ yr",0.802891869270216,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"713","By age","Leaving 2 out","<25 yr",0.82705918784735,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"714","By age","Leaving 2 out","25-54 yr",0.811871229867721,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"715","By age","Leaving 2 out","55+ yr",0.802122499642305,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"716","By age","Leaving 2 out","<25 yr",0.83609564450085,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"717","By age","Leaving 2 out","25-54 yr",0.792856075392668,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718","By age","Leaving 2 out","55+ yr",0.7809509474256,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"719","By age","Leaving 2 out","<25 yr",0.807308720556181,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"720","By age","Leaving 2 out","25-54 yr",0.817422303153565,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"721","By age","Leaving 2 out","55+ yr",0.801290839118042,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"722","By age","Leaving 2 out","<25 yr",0.8461460939984,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"723","By age","Leaving 2 out","25-54 yr",0.798407148678321,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"724","By age","Leaving 2 out","55+ yr",0.780119286901332,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"725","By age","Leaving 2 out","<25 yr",0.817359170053747,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"726","By age","Leaving 2 out","25-54 yr",0.799102938440354,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"727","By age","Leaving 2 out","55+ yr",0.779349917273428,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"728","By age","Leaving 2 out","<25 yr",0.826395626707229,"loo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"729",NA,NA,"All",80.3,"reference","All LMIC","(Intercept)",0.0244277033457834,32.8534532656891,4.00565194158729e-13,74.9,85.6,12,"take_vaccine_num",20176,"All"
+"730",NA,NA,"All",30.4,"reference","Russia","(Intercept)",0.00664152311680478,45.8063873383111,0,29.1,31.7,22124,"take_vaccine_num",22125,"All"
+"731",NA,NA,"All",64.6,"reference","USA","(Intercept)",0.0139254617826589,46.359381325091,2.63298056860492e-317,61.8,67.3,1958,"take_vaccine_num",1959,"All"
+"732",NA,NA,"Female",79.2,"reference","All LMIC","(Intercept)",0.026453082563262,29.9444049790316,6.8028086083487e-12,73.4,85,11,"take_vaccine_num",9112,"Female"
+"733",NA,NA,"Male",82.6,"reference","All LMIC","(Intercept)",0.0237015024775539,34.869775488499,8.91876090807236e-12,77.4,87.9,10,"take_vaccine_num",9503,"Male"
+"734",NA,NA,"Female",22.6,"reference","Russia","(Intercept)",0.00845407722063156,26.6752702620033,4.99489536740514e-153,20.9,24.2,14273,"take_vaccine_num",14274,"Female"
+"735",NA,NA,"Male",38.5,"reference","Russia","(Intercept)",0.0100306019952839,38.3908841110858,1.1346927395871e-295,36.5,40.5,7850,"take_vaccine_num",7851,"Male"
+"736",NA,NA,"Female",56.1,"reference","USA","(Intercept)",0.0202773256981269,27.6788986464015,7.88192425760473e-126,52.1,60.1,1006,"take_vaccine_num",1007,"Female"
+"737",NA,NA,"Male",73.4,"reference","USA","(Intercept)",0.0182284230594955,40.248463966353,1.37713029939123e-207,69.8,76.9,951,"take_vaccine_num",952,"Male"
+"738",NA,NA,"More than Secondary",77.4,"reference","All LMIC","(Intercept)",0.0268515596473174,28.8131800009234,5.90682146881316e-11,71.4,83.4,10,"take_vaccine_num",3350,"More than Secondary"
+"739",NA,NA,"Up to Secondary",79.8,"reference","All LMIC","(Intercept)",0.025218435050266,31.6305738157672,2.34548210243284e-11,74.1,85.4,10,"take_vaccine_num",11527,"Up to Secondary"
+"740",NA,NA,"More than Secondary",31,"reference","Russia","(Intercept)",0.00732162665226091,42.3891469434833,0,29.6,32.5,20584,"take_vaccine_num",20585,"More than Secondary"
+"741",NA,NA,"Up to Secondary",29.6,"reference","Russia","(Intercept)",0.0119460246305939,24.7978813538471,1.72742538281065e-114,27.3,32,1539,"take_vaccine_num",1540,"Up to Secondary"
+"742",NA,NA,"More than Secondary",72.3,"reference","USA","(Intercept)",0.0139551411563262,51.7865581899351,0,69.5,75,1545,"take_vaccine_num",1546,"More than Secondary"
+"743",NA,NA,"Up to Secondary",51.5,"reference","USA","(Intercept)",0.0280338596325975,18.3772814496214,1.60400534879081e-55,46,57,412,"take_vaccine_num",413,"Up to Secondary"
+"744",NA,NA,"25-54 yr",81.1,"reference","All LMIC","(Intercept)",0.0248889913041644,32.5858124907846,2.71023870164206e-12,75.6,86.6,11,"take_vaccine_num",13315,"25-54 yr"
+"745",NA,NA,"55+ yr",79.1,"reference","All LMIC","(Intercept)",0.0297603599383507,26.5741839313572,1.31374104858152e-10,72.5,85.7,10,"take_vaccine_num",1495,"55+ yr"
+"746",NA,NA,"<25 yr",82.8,"reference","All LMIC","(Intercept)",0.0267978701294751,30.8845143904279,4.85976231058137e-12,76.9,88.7,11,"take_vaccine_num",2441,"<25 yr"
+"747",NA,NA,"25-54 yr",27.6,"reference","Russia","(Intercept)",0.00695294112147835,39.6605697407112,0,26.2,28.9,19571,"take_vaccine_num",19572,"25-54 yr"
+"748",NA,NA,"55+ yr",40,"reference","Russia","(Intercept)",0.0205707560048918,19.4279630378634,7.96328802406777e-65,35.9,44,567,"take_vaccine_num",568,"55+ yr"
+"749",NA,NA,"<25 yr",33.5,"reference","Russia","(Intercept)",0.0215835173315279,15.499839220745,3.0957118123881e-51,29.2,37.7,1984,"take_vaccine_num",1985,"<25 yr"
+"750",NA,NA,"25-54 yr",64.9,"reference","USA","(Intercept)",0.0194306999147909,33.3881202631,7.26130258844289e-165,61.1,68.7,1001,"take_vaccine_num",1002,"25-54 yr"
+"751",NA,NA,"55+ yr",69.4,"reference","USA","(Intercept)",0.023030872194008,30.1160312354256,2.07801267583434e-126,64.8,73.9,666,"take_vaccine_num",667,"55+ yr"
+"752",NA,NA,"<25 yr",51,"reference","USA","(Intercept)",0.0382333282043772,13.3474966800548,5.50290402684623e-32,43.5,58.6,289,"take_vaccine_num",290,"<25 yr"

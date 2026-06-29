@@ -1,0 +1,188 @@
+institution,study,iso,country,date,Geographic scope,Sampling methodology,Survey modality,Weights,Clusters,Question Fig. 1,Recoding Fig. 1,Question Tab. 2,Protection: self,Protection: family,Protection: community,Recoding Tab. 2,Question Fig. 2,Concerned about side effects,Concerned about getting COVID-19 from the vaccine,Not concerned about getting seriously ill,Doesn't think vaccines are effective,Doesn't think COVID-19 outbreak is as serious as people say,Doesn't like needles,Allergic to vaccines,Won't have time to get vaccinated,Mentions a conspiracy theory,Other reasons,Recoding Fig. 2,Question Fig. 3,Health workers,Government or Ministry of Health,Family or friends,"Famous person, religious leader or traditional healers","Newspapers, radio or online groups",Other,Recoding Fig. 3
+ipa,bfa_recovr,bfa,Burkina Faso,"October 15 to December 4, 2020",National,Random digit dialing (RDD),Phone,Yes,No,"If a COVID-19 vaccine became available in Burkina Faso, would you take it?",Yes; No; Don't know; Refuse,Why would you take it?,"Protection: self (general); Protection: self, chronic condition",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other",Why would you not take it?,NA,Concerned about getting coronavirus from the vaccine,Not concerned about getting seriously ill,Doesn't think vaccines work very well,Coronavirus outbreak is not as serious as people say,Doesn't like needles,Allergic to vaccines,Won't have time to get vaccinated,Conspiracy theory,Other reason,"
+Concerned about getting COVI","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice from Ministry of Health,Family members; Friends you see and talk to; Friends you-'ve made online,Famous person; Religious leaders; Traditional Healers,"Traditional media (newspaper, radio); Online medical discussion groups",Other/ Someone else,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice from Ministry of Health
+Family or friends: Family members; Friends you see and talk to; Friends you-'ve made online
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional Healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio);Online medical discussion groups
+Other: Other/ Someone else"
+ipa,col_recovr,col,Colombia,"August 15-25, 2020",National,Random digit dialing (RDD),Phone,Yes,No,"If a COVID-19 vaccine became available in Colombia, would you take it?",Yes; No,Why would you take it?,"Protection: self (general); Protection: self, chronic condition",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other",Why would you not take it?,NA,Concerned about getting coronavirus from the vaccine,Not concerned about getting seriously ill,Doesn't think vaccines work very well,Coronavirus outbreak is not as serious as people say,Doesn't like needles,Allergic to vaccines,Won't have time to get vaccinated,Conspiracy theory,Other reason; Already immune; Doesn't have symptoms,"
+Concerned about getting COVI","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice of the Instituto Nacional de Salud,Family members; Friends you see and talk to; Friends you've made online,Famous person; Religious leaders; Traditional Healers,"Traditional media (newspaper, radio); Online medical discussion groups",Other/ Someone else,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice of the Instituto Nacional de Salud
+Family or friends: Family members; Friends you see and talk to; Friends you-'ve made online
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional Healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio);Online medical discussion groups
+Other: Other/ Someone else"
+igc,ind_igc,ind,India,"June 17, 2020 to January 18, 2021","Subnational, Slums in 2 cities",Representative sample of slum dwellers living in vicinity of a community toilet and located in Uttar Pradesh,Phone,Yes,Yes,"If a vaccine for coronavirus gets introduced, would you like to get it?","Yes, only for free; Yes, even if I have to pay; No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+igc,moz_igc,moz,Mozambique,"October 30 to November 30, 2020","Subnational, 2 cities","Random sample in urban and periurban markets stratified by gender and type of establishment in Maputo; and random sample representative of communities in the Cabo Delgado, stratified on urban, semiurban, and rural areas",Phone,No,Yes,"When a COVID-19 vaccine becomes available in the future, would you take it?",Yes; No; Refuse,Why would you take it?,I want to protect myself from having COVID-19 in the future,I want to protect my family/members of my household against having COVID-19 in the future,I want to protect my community against having COVID-19 in the future,"Protection self: I want to protect myself from having COVID-19 in the future
+Protection family: I want to protect my family/members of my household against having COVID-19 in the future
+Protection community: I want to protect my community against having COVID-19 in the future
+Recommended by health workers or doctors: NA
+Recommended by The government recommends getting vaccines
+Other reasons: Other; Life won't go back to normal until most people are vaccinated",Why would you not take it?,NA,NA,I am not concerned about the risk associated with me/my relatives getting COVID-19,I don't think vaccines are effective,The coronavirus outbreak is not as serious as people say it is,I don't like needles,NA,I won't have time to go get vaccinated,NA,Other,"Not concerned about getting seriously ill: I am not concerned about the risk associated with me/my relatives getting COVID-19
+Doesn't think vaccines are effective: I don't think vaccines are effective
+Doesn't think COVID-19 outbreak is as serious as people say: The coronavirus outbreak is not as serious as people say it is
+Doesn't like needles: I don't like needles
+Won't have time to get vaccinated: I won't have time to go get vaccinated
+Other reasons: Other",NA,NA,NA,NA,NA,NA,NA,NA
+yale,npl_yale,npl,Nepal,"December 1-11, 2020","Subnational, 2 districts",Random sample of poor households from randomly selected villages in Kanchanpur,Phone,Yes,?,"Should a vaccine against COVID become available in Nepal, would you take it?",Yes; No,Why would you take it?,"Protection: self (general); Protection: self, chronic condition/ vulnerable to covid",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition/ vulnerable to covid
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/ health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other; Recommendation: World Health Organisation; Civic responsibility",Why would you not take it?,I would be concerned about the side effects from the vaccine,I would be concerned about getting infected with coronavirus from the vaccine,I'm not concerned about getting seriously ill from the virus,I don't think vaccines work very well,The coronavirus outbreak is not as serious as people say it is,I don't like needles,I'm allergic to vaccines,I won't have time to go get vaccinated,I think there is a conspiracy theory with vaccinations,Other,"Concerned about side effects: I would be concerned about the side effects from the vaccine 
+Concerned about getting COVID-19 from the vaccine: I would be concerned about getting infected with coronavirus from the vaccine
+Not concerned about getting seriously ill: I'm not concerned about getting seriously ill from the virus
+Doesn't think vaccines are effective: I don't think vaccines work very well
+Doesn't think COVID-19 outbreak is as serious as people say: The coronavirus outbreak is not as serious as people say it is
+Doesn't like needles: I don't like needles
+Allergic to vaccines: I'm allergic to vaccines
+Won't have time to get vaccinated: I won't have time to go get vaccinated
+Mentions a conspiracy theory: I think there is a conspiracy theory with vaccinations
+Other reasons: Other","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice of the national health service,Family members; Friends you see and talk to,Famous person; Religious leaders; Traditional healers,"Traditional media (newspaper, radio); Online medical discussion groups",None of these/ Someone else; Advice of the WHO,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice of the national health service
+Family or friends: Family members; Friends you see and talk to
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio); Online medical discussion groups
+Other: None of these/ Someone else; Advice of the WHO"
+wzb,nga_scacco,nga,Nigeria,"November 18 to December 18, 2020","Subnational, 1 state",Random sample of individuals in Kaduna; and Sample of phone numbers from a phone list of Kaduna state residents,Phone,No,No,"If a COVID-19 vaccine became available in Niger, would you take it?",Yes/Agree; No/Disagree,Why would you take it?,I want to protect myself from having COVID-19 in the future,I want to protect my family/members of my household against having COVID-19 in the future,I want to protect my community against having COVID-19 in the future,"Protection self: I want to protect myself from having COVID-19 in the future
+Protection family: I want to protect my family/members of my household against having COVID-19 in the future
+Protection community: I want to protect my community against having COVID-19 in the future
+Recommended by The NCDC / government recommends getting vaccines 
+Other reasons: Other; Life won't go back to normal until most people are vaccinated; It is free",Why would you not take it?,I would be concerned about the side effects from the vaccine,I would be concerned about getting infected with coronavirus from the vaccine,I'm not concerned about getting seriously ill from the virus,I don't think vaccines work very well,The coronavirus outbreak is not as serious as people say it is,I don't like needles,I'm allergic to vaccines,I won't have time to go get vaccinated,The virus is a hoax / does not exist; The vaccine has microchips/ tracking devices,Other; Religious / community leaders advising me not to take it,"Concerned about side effects: I would be concerned about the side effects from the vaccine
+Concerned about getting COVID-19 from the vaccine: I would be concerned about getting infected with coronavirus from the vaccine
+Not concerned about getting seriously ill: I'm not concerned about getting seriously ill from the virus
+Doesn't think vaccines are effective: I don't think vaccines work very well
+Doesn't think COVID-19 outbreak is as serious as people say: The coronavirus outbreak is not as serious as people say it is
+Doesn't like needles: I don't like needles
+Allergic to vaccines: I'm allergic to vaccines
+Won't have time to get vaccinated: I won't have time to go get vaccinated
+Mentions a conspiracy theory: The virus is a hoax / does not exist; The vaccine has microchips/ tracking devices
+Other reasons: Other; Religious / community leaders advising me not to take it","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Medical professionals like doctors,NCDC; Government officials,Family members and friends,Religious leaders,NA,Some other sourcer; Other community leaders,"Health workers: Medical professionals like doctors
+Government or Ministry of Health: NCDC; Government officials
+Family or friends: Family members and friends
+Famous person, religious leader or traditional healers: Religious leaders
+Other: Some other sourcer; Other community leaders"
+igc,pak_igc1,pak,Pakistan 1,"July 24 to September 9, 2020","Subnational, 2 districts",Random sample of individuals in administrative police units in two districts of Punjab,Phone,Yes,Yes,"If a vaccine against the coronavirus becomes available, do you plan to get vaccinated?",Yes; No; Don't know; Refuse,NA,NA,NA,NA,NA,Why would you not take it?,I am concerned about side effects from the vaccine,I would be concerned about getting infected with coronavirus from the vaccine,I don't consider myself or my family members at risk of getting seriously ill,I don't think the vaccine would work well,The coronavirus infection is just like the flu and doesn't warrant a vaccine,I don't like needles,NA,NA,Vaccines are just Western conspiracies to stunt the growth of Muslims,Muslims are prohibited from taking a vaccine before a disease is contracted,"Concerned about side effects: I am concerned about side effects from the vaccine
+Concerned about getting COVID-19 from the vaccine: I would be concerned about getting infected with coronavirus from the vaccine
+Not concerned about getting seriously ill: I don't consider myself or my family members at risk of getting seriously ill
+Doesn't think vaccines are effective: I don't think the vaccine would work well
+Doesn't think COVID-19 outbreak is as serious as people say: The coronavirus infection is just like the flu and doesn't warrant a vaccine
+Doesn't like needles: I don't like needles
+Mentions a conspiracy theory: Vaccines are just Western conspiracies to stunt the growth of Muslims
+Other reasons: Muslims are prohibited from taking a vaccine before a disease is contracted",NA,NA,NA,NA,NA,NA,NA,NA
+igc,pak_igc2,pak,Pakistan 2,"September 2 to October 13, 2020","Subnational, 1 province",Random digit dialing (RDD) on a random sample of all numerically possible mobile phone numbers in the region of Punjab,Phone,No,No,"If a vaccine against the coronavirus becomes available, do you plan to get vaccinated?","Absolutely yes; Yes; Neutral; No; Absolutely no 
+",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+hse/columbia,rus_syunyaev,rus,Russia,"November 6 to December 1, 2020","Subnational, 61 regions","Sample recruited from the Russian online survey company OMI (Online Market Intelligence). Sampling targeted at having a minimum of respondents per region, as well as representation of age, gender and education groups.",Online,Yes,No,"If a COVID-19 vaccine became available in Russia, would you take it?","Yes, if a Russian vaccine will be available; Yes, if an imported vaccine will be available; No; Not sure
+",Why would you take it?,Protection: self,Protection: family,Protection: community,"Protection self: Protection: self
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: Medical doctors
+Recommended by Recommendation: Government
+Other reasons: Other; Civic responsibility",Why would you not take it?,Afraid of side effects,Afraid of getting infected with coronavirus from the vaccine,Not concerned with getting seriously ill from the virus,Don't think vaccines are effective,Coronavirus outbreak is not as serious as people say it is,Afraid of needles,Can get allergic reaction,Don't have time to get vaccinated,Hoax: Virus don't exist; Hoax: Virus was designed so vaccines won't work; Profit motivation: pharmaceutical companies; Control: contain things that control our minds; Global politics: China can take advantage,Other; I already had coronavirus and don't need a vaccine,"Concerned about side effects: Afraid of side effects
+Concerned about getting COVID-19 from the vaccine: Afraid of getting infected with coronavirus from the vaccine
+Not concerned about getting seriously ill:  Not concerned with getting seriously ill from the virus
+Doesn't think vaccines are effective: Don't think vaccines are effective
+Doesn't think COVID-19 outbreak is as serious as people say: Coronavirus outbreak is not as serious as people say it is
+Doesn't like needles: Afraid of needles
+Allergic to vaccines: Can get allergic reaction
+Won't have time to get vaccinated: Don't have time to get vaccinated
+Mentions a conspiracy theory: Hoax: Virus don't exist; Hoax: Virus was designed so vaccines won't work; Profit motivation: pharmaceutical companies; Control: contain things that control our minds; Global politics: China can take advantage
+Other reasons: Other; I already had coronavirus and don't need a vaccine","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Health workers,Government; Health Ministry,Family; Friends,Famous people; Religious leaders,Traditional media; Online medical discussion groups,Other,"Health workers: Health workers
+Government or Ministry of Health: Government; Health Ministry
+Family or friends: Family; Friends
+Famous person, religious leader or traditional healers: Famous people; Religious leaders
+Newspapers, radio or online groups: Traditional media; Online medical discussion groups
+Other: Other"
+ipa,rwa_recovr,rwa,Rwanda,"October 22 to November 15, 2020",National,Random digit dialing (RDD),Phone,Yes,No,"If a COVID-19 vaccine became available in Rwanda, would you take it?",Yes; No,Why would you take it?,"Protection: self (general); Protection: self, chronic condition",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other",Why would you not take it?,NA,Concerned about getting coronavirus from the vaccine,Not concerned about getting seriously ill,Doesn't think vaccines work very well,Coronavirus outbreak is not as serious as people say,Doesn't like needles,Allergic to vaccines,Won't have time to get vaccinated,Conspiracy theory,Other reason; Already immune; Doesn't have symptoms,"
+Concerned about getting COVI","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice of the Ministry of Health,Family members; Friends you see and talk to; Friends you’ve made online,Famous person; Religious leaders; Traditional healers,"Traditional media (newspaper, radio); Online medical discussion groups",None of these/ Someone else; Myself,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice of the Ministry of Health
+Family or friends: Family members; Friends you see and talk to; Friends you’ve made online
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio); Online medical discussion groups
+Other: None of these/ Someone else; Myself"
+ipa,sle_recovr,sle,Sierra Leone 1,"October 2-19, 2020",National,Random digit dialing (RDD),Phone,Yes,No,"If a COVID-19 vaccine became available in Sierra Leone, would you take it?",Yes; No,Why would you take it?,"Protection: self (general); Protection: self, chronic condition",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other, Civic responsibility",Why would you not take it?,NA,Concerned about getting coronavirus from the vaccine,Not concerned about getting seriously ill,Doesn't think vaccines work very well,Coronavirus outbreak is not as serious as people say,Doesn't like needles,Allergic to vaccines,Won't have time to get vaccinated,Conspiracy theory,Other reason,"
+Concerned about getting COVI","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice of the Ministry of Health and Sanitation,Family members; Friends you see and talk to; Friends you’ve made online,Famous person; Religious leaders; Traditional healers,"Traditional media (newspaper, radio); Online medical discussion groups",None of these/ Someone else; I do trust NOBODY,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice of the Ministry of Health and Sanitation
+Family or friends: Family members; Friends you see and talk to; Friends you’ve made online
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio); Online medical discussion groups
+Other: None of these/ Someone else; I do trust NOBODY"
+igc,sle_igc,sle,Sierra Leone 2,"October 7, 2020 to January 20, 2021",National,A random sample of households in 195 rural towns across all 14 districts of Sierra Leone,Phone,No,Yes,"Should a vaccine against COVID become available in Sierra Leone, would you take it?",Yes; No,Why would you take it?,I will take a vaccine to protect myself from having COVID-19 in the future,I will take a vaccine to protect my family/members of my household against having COVID-19 in the future,I will take a vaccine to protect my community against having COVID-19 in the future,"Protection self: I will take a vaccine to protect myself from having COVID-19 in the future
+Protection family: I will take a vaccine to protect my family/members of my household against having COVID-19 in the future
+Protection community: I will take a vaccine to protect my community against having COVID-19 in the future
+Recommended by I will take a vaccine to the CHC/government recommends getting vaccines
+Other reasons: I will take the vaccine for other reasons; I will take a vaccine to because life won't go back to normal until most people",Why would you not take it?,I will not take a vaccine because I am concerned about side effects,I will not take a vaccine because I am not concerned about the risk associated with me/my relatives getting COVID-19,I will not take a vaccine because I am not concerned about the risk associated with me/my relatives getting COVID-19,I will not take a vaccine because they are not effective,NA,I will not take a vaccine because I don't like needles,NA,I will not take a vaccine because I don't have time,I will not take a vaccine because I don't think COVID exists,I will not take a vaccine because of other reasons; I will not take a vaccine because my community objects it; I will not take a vaccine because I don't have symptoms; I will not take a vaccine because I am immune; I will not take a vaccine because it is provided by foreign aid; I will not take a vaccine because I don't know what a vaccine is,"Concerned about side effects: I will not take a vaccine because I am concerned about side effects
+Not concerned about getting seriously ill: I will not take a vaccine because I am not concerned about the risk associated with me/my relatives getting COVID-19
+Doesn't think vaccines are effective: I will not take a vaccine because they are not effective
+Doesn't like needles: I will not take a vaccine because I don't like needles
+Won't have time to get vaccinated: I will not take a vaccine because I don't have time
+Mentions a conspiracy theory: I will not take a vaccine because I don't think COVID exists
+Other reasons: I will not take a vaccine because of other reasons; I will not take a vaccine because my community objects it; I will not take a vaccine because I don't have symptoms; I will not take a vaccine because I am immune; I will not take a vaccine because it is provided by foreign aid; I will not take a vaccine because I don't know what a vaccine is","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?","A doctor, nurse or other staff at a community health clinic; A country medical staff",NA,Family; Friends you see and talk to; Friends you’ve made online,A famous person; A religious leader; A traditional healer,Online medical discussion groups,None of these/ Someone else,"Health workers: A doctor, nurse or other staff at a community health clinic; A country medical staff
+Family or friends: Family; Friends you see and talk to; Friends you’ve made online
+Famous person, religious leader or traditional healers: A famous person; A religious leader; A traditional healer
+Newspapers, radio or online groups: Online medical discussion groups
+Other: None of these/ Someone else"
+igc,uga_igc,uga,Uganda 1,"September 21 to December 6, 2020","Subnational, 13 districts","Sample of women in households from semi-rural and rural villages across 13 districts in Uganda, selected according to the likelihood of having children",Phone,No,Yes,"When a COVID-19 vaccine becomes available in Uganda, would you take it?",Yes; No,Why would you take it?,Protect myself from having COVID-19,Protect my family/members of my household against COVID-19,Protect my community against COVID-19,"Protection self: Protect myself from having COVID-19
+Protection family: Protect my family/members of my household against COVID-19
+Protection community: Protect my community against COVID-19
+Recommended by The government recommends getting vaccines
+Other reasons: Other; To go back to normal life",Why would you not take it?,Concerned about the side effects from the vaccine/vaccines,I am not worried that my relatives will get COVID-19,I am not worried that my relatives will get COVID-19,I don't think vaccines are effective,Coronavirus is not as serious as people say it is,I don't like needles,NA,I won't have time to go get vaccinated,NA,Other; It will cost too much,"Concerned about side effects: Concerned about the side effects from the vaccine/vaccines
+Not concerned about getting seriously ill:  I am not worried that my relatives will get COVID-19
+Doesn't think vaccines are effective: I don't think vaccines are effective  
+Doesn't think COVID-19 outbreak is as serious as people say:  Coronavirus is not as serious as people say it i
+Doesn't like needles: I don't like needles
+Won't have time to get vaccinated: I won't have time to go get vaccinated.
+Other reasons: Other; It will cost too much",NA,NA,NA,NA,NA,NA,NA,NA
+wzb,uga_wzb,uga,Uganda 2,"November 23 to December 12, 2020","Subnational, 1 district",Random sample of households in Kampala,Phone,No,Yes,"If a COVID-19 vaccine becomes available in Uganda, would you take it?",Yes; No; Don't know; Refuse,Why would you take it?,"Protection: self (general); Protection: self, chronic condition/ vulnerable to Covid",Protection: family,Protection: community,"Protection self: Protection: self (general); Protection: self, chronic condition/ vulnerable to Covid
+Protection family: Protection: family
+Protection community: Protection: community
+Recommended by health workers or doctors: Recommendation: clinic/ health center
+Recommended by Recommendation: Ministry of Health
+Other reasons: Other; Civic responsibility",Why would you not take it?,I would be concerned about the side effects from the vaccine,I would be concerned about getting infected with coronavirus from the vaccine,I'm not concerned about getting seriously ill from the virus,I don't think vaccines work very well,The coronavirus outbreak is not as serious as people say it is,I don't like needles,I'm allergic to vaccines,I won't have time to go get vaccinated,I think there is a conspiracy theory with vaccinations,Other,"Concerned about side effects: I would be concerned about the side effects from the vaccine
+Concerned about getting COVID-19 from the vaccine: I would be concerned about getting infected with coronavirus from the vaccine
+Not concerned about getting seriously ill: I'm not concerned about getting seriously ill from the virus
+Doesn't think vaccines are effective: I don't think vaccines work very well
+Doesn't think COVID-19 outbreak is as serious as people say: The coronavirus outbreak is not as serious as people say it is
+Doesn't like needles: I don't like needles
+Allergic to vaccines: I'm allergic to vaccines
+Won't have time to get vaccinated: I won't have time to go get vaccinated
+Mentions a conspiracy theory: I think there is a conspiracy theory with vaccinations 
+Other reasons: Other","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Doctors or other staff at a community health clinic,Advice of the national health service,Family; Friends you see and talk to; Friends you’ve made online,Famous person; Religious leaders; Traditional healers,"Traditional media (newspaper, radio); Online medical discussion groups",None of these; Someone else,"Health workers: Doctors or other staff at a community health clinic
+Government or Ministry of Health: Advice of the national health service
+Family or friends: Family; Friends you see and talk to; Friends you’ve made online
+Famous person, religious leader or traditional healers: Famous person; Religious leaders; Traditional healers
+Newspapers, radio or online groups: Traditional media (newspaper, radio); Online medical discussion groups
+Other: None of these; Someone else"
+wzb,usa_wzb,usa,USA,"December 4-5, 2020",National,Nation-wide sample of adult internet users recruited through the market research firm Lucid,Online,Yes,No,"If a COVID-19 vaccine becomes available in the United States, would you take it?","Definitely yes; Probably yes; Probably not; Definitely not, Refuse",Why would you take it?,To protect myself from COVID-19 infection,To protect my family from COVID-19 infection,To protect my community from COVID-19 infection,"Protection self: To protect myself from COVID-19 infection
+Protection family: To protect my family from COVID-19 infection
+Protection community: To protect my community from COVID-19 infection
+Recommended by To comply with recommendations of government health authorities",Why would you not take it?,I am concerned about possible side effects,NA,I am not concerned about getting the virus,I don't think vaccines are effective,NA,NA,NA,NA,"Mentions a conspiracy theory (recoded from responses in ""Other"" category)",Cost or difficulty of getting the vaccine,"Concerned about side effects: I am concerned about possible side effects
+Not concerned about getting seriously ill: I am not concerned about getting the virus
+Doesn't think vaccines are effective: I don't think vaccines are effective
+Mentions a conspiracy theory: Mentions a conspiracy theory (recoded from responses in ""Other"" category)
+Other reasons: Cost or difficulty of getting the vaccine","Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine, if one becomes available?",Your doctor or healthcare provider,Donald Trump; Anthony Fauci; Your state's governor; Local public health authority,Friends or family,"Your pastor, priest, or other religious leader",NA,Other; Joe Biden,"Health workers: Your doctor or healthcare provider
+Government or Ministry of Health: Donald Trump; Anthony Fauci; Your state's governor; Local public health authority
+Family or friends: Friends or family
+Famous person, religious leader or traditional healers: Your pastor, priest, or other religious leader
+Other: Other; Joe Biden"

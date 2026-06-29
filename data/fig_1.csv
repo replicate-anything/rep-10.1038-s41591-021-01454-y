@@ -1,0 +1,241 @@
+"","group","term","estimate","std.error","statistic","p.value","conf.low","conf.high","df","outcome","n","cat","var","tag"
+"1","All LMICs (National samples)","(Intercept)",78.4,0.037855271843754,20.7210973859333,3.20469674276066e-05,67.9,89,4,"take_vaccine_num",6524,"All","All","All LMICs
+(National samples)"
+"2","All LMICs (National samples)","(Intercept)",75.5,0.0430748320251624,17.5366550424891,6.20880249252689e-05,63.6,87.5,4,"take_vaccine_num",2307,"Female","By gender","All LMICs
+(National samples)"
+"3","All LMICs (National samples)","(Intercept)",80.3,0.0363046235039039,22.1221726289215,2.47142287605595e-05,70.2,90.4,4,"take_vaccine_num",4217,"Male","By gender","All LMICs
+(National samples)"
+"4","All LMICs (National samples)","(Intercept)",74.7,0.0454146210446775,16.4445772216655,8.00624830327983e-05,62.1,87.3,4,"take_vaccine_num",1632,"More than Secondary","By education","All LMICs
+(National samples)"
+"5","All LMICs (National samples)","(Intercept)",79.8,0.0361902738527474,22.0604508682327,2.49900854112052e-05,69.8,89.9,4,"take_vaccine_num",4859,"Up to Secondary","By education","All LMICs
+(National samples)"
+"6","All LMICs (National samples)","(Intercept)",77.4,0.0423025713197414,18.2997791756629,5.24531084241493e-05,65.7,89.2,4,"take_vaccine_num",3811,"$25-54$","By age","All LMICs
+(National samples)"
+"7","All LMICs (National samples)","(Intercept)",74.4,0.0460083477526277,16.1790900851911,8.53796378564073e-05,61.7,87.2,4,"take_vaccine_num",636,"$55 +$","By age","All LMICs
+(National samples)"
+"8","All LMICs (National samples)","(Intercept)",80.1,0.0239138527491932,33.4897852511049,4.74159791754802e-06,73.4,86.7,4,"take_vaccine_num",875,"$< 25$","By age","All LMICs
+(National samples)"
+"9","All","(Intercept)",80.3,0.0244277033457834,32.8534532656891,4.00565194158729e-13,74.9,85.6,12,"take_vaccine_num",20176,"All","All","All LMICs"
+"10","Burkina Faso","(Intercept)",66.5,0.0151873166888483,43.7699153141003,1.9828418276594e-232,63.5,69.5,976,"take_vaccine_num",977,"All","All","Burkina Faso
+(National, 977)"
+"11","Colombia","(Intercept)",74.9,0.013736189293453,54.5563989334721,1.64356619775329e-303,72.2,77.6,1011,"take_vaccine_num",1012,"All","All","Colombia
+(National, 1012)"
+"12","India","(Intercept)",84.3,0.010194133183813,82.684115017484,2.34058509775955e-121,82.3,86.3,141,"take_vaccine_num",1680,"All","All","India
+(Subnational, Slums in 2 cities, 1680)"
+"13","Mozambique","(Intercept)",89.1,0.0133698799254501,66.638689432515,1.1769886802283e-119,86.5,91.7,162,"take_vaccine_num",862,"All","All","Mozambique
+(Subnational, 2 cities, 862)"
+"14","Nepal","(Intercept)",96.6,0.00536660669517793,179.913999368651,8.32946950120609e-116,95.5,97.6,89,"take_vaccine_num",1389,"All","All","Nepal
+(Subnational, 2 districts, 1389)"
+"15","Nigeria","(Intercept)",76.2,0.00985138855820315,77.3812371047136,0,74.3,78.2,1867,"take_vaccine_num",1868,"All","All","Nigeria
+(Subnational, 1 state, 1868)"
+"16","Pakistan 1","(Intercept)",76.1,0.0309115152728748,24.6264910167254,1.98926596030009e-45,70,82.3,105,"take_vaccine_num",1633,"All","All","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"17","Pakistan 2","(Intercept)",66.5,0.01222455878728,54.3888223810736,0,64.1,68.9,1491,"take_vaccine_num",1492,"All","All","Pakistan 2
+(Subnational, 1 province, 1492)"
+"18","Russia","(Intercept)",30.4,0.00664152311680478,45.8063873383111,0,29.1,31.7,22124,"take_vaccine_num",22125,"All","All","Russia
+(Subnational, 61 regions, 22125)"
+"19","Rwanda","(Intercept)",84.9,0.00978841228550327,86.6955404539919,0,82.9,86.8,1354,"take_vaccine_num",1355,"All","All","Rwanda
+(National, 1355)"
+"20","Sierra Leone 1","(Intercept)",78,0.01271306164061,61.3629268332046,0,75.5,80.5,1069,"take_vaccine_num",1070,"All","All","Sierra Leone 1
+(National, 1070)"
+"21","Sierra Leone 2","(Intercept)",87.9,0.00867405327491886,101.353645356704,2.40940466735841e-167,86.2,89.6,190,"take_vaccine_num",2110,"All","All","Sierra Leone 2
+(National, 2110)"
+"22","USA","(Intercept)",64.6,0.0139254617826589,46.359381325091,2.63298056860492e-317,61.8,67.3,1958,"take_vaccine_num",1959,"All","All","USA
+(National, 1959)"
+"23","Uganda 1","(Intercept)",85.8,0.00693722129997693,123.697966298174,0,84.4,87.2,497,"take_vaccine_num",3362,"All","All","Uganda 1
+(Subnational, 13 districts, 3362)"
+"24","Uganda 2","(Intercept)",76.5,0.0111280625275299,68.7457784094625,2.57144089396628e-189,74.3,78.7,309,"take_vaccine_num",1366,"All","All","Uganda 2
+(Subnational, 1 district, 1366)"
+"25","All","(Intercept)",79.2,0.026453082563262,29.9444049790316,6.8028086083487e-12,73.4,85,11,"take_vaccine_num",9112,"Female","By gender","All LMICs"
+"26","All","(Intercept)",82.6,0.0237015024775539,34.869775488499,8.91876090807236e-12,77.4,87.9,10,"take_vaccine_num",9503,"Male","By gender","All LMICs"
+"27","Burkina Faso","(Intercept)",62.1,0.0295024205397103,21.0493882696318,4.97319411176869e-59,56.3,67.9,272,"take_vaccine_num",273,"Female","By gender","Burkina Faso
+(National, 977)"
+"28","Burkina Faso","(Intercept)",68.4,0.017525453148607,39.052974039285,2.90880978636719e-178,65,71.9,703,"take_vaccine_num",704,"Male","By gender","Burkina Faso
+(National, 977)"
+"29","Colombia","(Intercept)",73.5,0.0174756941656896,42.0763113775237,7.7318004019787e-187,70.1,77,643,"take_vaccine_num",644,"Female","By gender","Colombia
+(National, 1012)"
+"30","Colombia","(Intercept)",77.3,0.022163625617201,34.8843753208149,1.38478829976002e-118,73,81.7,367,"take_vaccine_num",368,"Male","By gender","Colombia
+(National, 1012)"
+"31","India","(Intercept)",82.4,0.0171749569915515,47.961177060769,1.09597163766245e-79,79,85.8,119,"take_vaccine_num",332,"Female","By gender","India
+(Subnational, Slums in 2 cities, 1680)"
+"32","India","(Intercept)",84.7,0.0114464543772681,74.028802135017,3.79747457029005e-114,82.5,87,140,"take_vaccine_num",1348,"Male","By gender","India
+(Subnational, Slums in 2 cities, 1680)"
+"33","Mozambique","(Intercept)",86.2,0.0188539615379783,45.7284353967455,2.44797107199175e-53,82.5,90,69,"take_vaccine_num",370,"Female","By gender","Mozambique
+(Subnational, 2 cities, 862)"
+"34","Mozambique","(Intercept)",91.3,0.0145346021473225,62.7882082196775,1.34891652562963e-109,88.4,94.1,150,"take_vaccine_num",492,"Male","By gender","Mozambique
+(Subnational, 2 cities, 862)"
+"35","Nepal","(Intercept)",96.4,0.00904272696230456,106.636162154178,1.91237574886538e-91,94.6,98.2,84,"take_vaccine_num",566,"Female","By gender","Nepal
+(Subnational, 2 districts, 1389)"
+"36","Nepal","(Intercept)",96.4,0.00662977968262602,145.399257076588,1.20336290074702e-105,95.1,97.7,87,"take_vaccine_num",758,"Male","By gender","Nepal
+(Subnational, 2 districts, 1389)"
+"37","Nigeria","(Intercept)",74.9,0.0164843573719998,45.4320257694638,7.59703689917386e-210,71.7,78.1,692,"take_vaccine_num",693,"Female","By gender","Nigeria
+(Subnational, 1 state, 1868)"
+"38","Nigeria","(Intercept)",77,0.0122781873705081,62.7301687712864,0,74.6,79.4,1174,"take_vaccine_num",1175,"Male","By gender","Nigeria
+(Subnational, 1 state, 1868)"
+"39","Pakistan 1","(Intercept)",72.2,0.0333613754379759,21.6433760599964,1.68001258871234e-40,65.6,78.8,105,"take_vaccine_num",812,"Female","By gender","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"40","Pakistan 1","(Intercept)",80.1,0.0316731552844157,25.2934028804988,1.79615225585716e-46,73.8,86.4,105,"take_vaccine_num",817,"Male","By gender","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"41","Russia","(Intercept)",22.6,0.00845407722063156,26.6752702620033,4.99489536740514e-153,20.9,24.2,14273,"take_vaccine_num",14274,"Female","By gender","Russia
+(Subnational, 61 regions, 22125)"
+"42","Russia","(Intercept)",38.5,0.0100306019952839,38.3908841110858,1.1346927395871e-295,36.5,40.5,7850,"take_vaccine_num",7851,"Male","By gender","Russia
+(Subnational, 61 regions, 22125)"
+"43","Rwanda","(Intercept)",79.4,0.0183748594269489,43.2075097505693,6.62759205066327e-169,75.8,83,488,"take_vaccine_num",489,"Female","By gender","Rwanda
+(National, 1355)"
+"44","Rwanda","(Intercept)",88,0.0110895162571377,79.3622362634894,0,85.8,90.2,865,"take_vaccine_num",866,"Male","By gender","Rwanda
+(National, 1355)"
+"45","Sierra Leone 1","(Intercept)",74.1,0.0231794123686414,31.9715146947695,6.11182389950429e-107,69.5,78.7,358,"take_vaccine_num",359,"Female","By gender","Sierra Leone 1
+(National, 1070)"
+"46","Sierra Leone 1","(Intercept)",80.1,0.0150130912573869,53.3599877786684,1.18521212081333e-250,77.2,83.1,710,"take_vaccine_num",711,"Male","By gender","Sierra Leone 1
+(National, 1070)"
+"47","Sierra Leone 2","(Intercept)",88.6,0.014656355143899,60.4249042407526,3.36508316005451e-106,85.7,91.5,148,"take_vaccine_num",542,"Female","By gender","Sierra Leone 2
+(National, 2110)"
+"48","Sierra Leone 2","(Intercept)",87.7,0.00922080095743812,95.1016369785903,6.3141603217234e-161,85.9,89.5,188,"take_vaccine_num",1568,"Male","By gender","Sierra Leone 2
+(National, 2110)"
+"49","USA","(Intercept)",56.1,0.0202773256981269,27.6788986464015,7.88192425760473e-126,52.1,60.1,1006,"take_vaccine_num",1007,"Female","By gender","USA
+(National, 1959)"
+"50","USA","(Intercept)",73.4,0.0182284230594955,40.248463966353,1.37713029939123e-207,69.8,76.9,951,"take_vaccine_num",952,"Male","By gender","USA
+(National, 1959)"
+"51","Uganda 1","(Intercept)",85.8,0.00693722129997693,123.697966298174,0,84.4,87.2,497,"take_vaccine_num",3362,"Female","By gender","Uganda 1
+(Subnational, 13 districts, 3362)"
+"52","Uganda 2","(Intercept)",74.9,0.0171790253859366,43.6144492781675,2.39661138765636e-126,71.5,78.3,278,"take_vaccine_num",670,"Female","By gender","Uganda 2
+(Subnational, 1 district, 1366)"
+"53","Uganda 2","(Intercept)",78,0.0145116193389392,53.7619128211046,3.3724567804324e-152,75.2,80.9,288,"take_vaccine_num",696,"Male","By gender","Uganda 2
+(Subnational, 1 district, 1366)"
+"54","All","(Intercept)",77.4,0.0268515596473174,28.8131800009234,5.90682146881316e-11,71.4,83.4,10,"take_vaccine_num",3350,"More than Secondary","By education","All LMICs"
+"55","All","(Intercept)",79.8,0.025218435050266,31.6305738157672,2.34548210243284e-11,74.1,85.4,10,"take_vaccine_num",11527,"Up to Secondary","By education","All LMICs"
+"56","Burkina Faso","(Intercept)",60.8,0.0251676014782325,24.173777732854,8.77715813031093e-79,55.9,65.8,379,"take_vaccine_num",380,"More than Secondary","By education","Burkina Faso
+(National, 977)"
+"57","Burkina Faso","(Intercept)",70.1,0.0188835068214167,37.1008568042946,5.03491517421386e-157,66.4,73.8,596,"take_vaccine_num",597,"Up to Secondary","By education","Burkina Faso
+(National, 977)"
+"58","Colombia","(Intercept)",78.1,0.0225507101844627,34.6163185646738,4.08605458519308e-114,73.6,82.5,344,"take_vaccine_num",345,"More than Secondary","By education","Colombia
+(National, 1012)"
+"59","Colombia","(Intercept)",73.4,0.0172466067375263,42.5879702019971,3.66971898656888e-192,70.1,76.8,665,"take_vaccine_num",666,"Up to Secondary","By education","Colombia
+(National, 1012)"
+"60","India","(Intercept)",87.8,0.0332123886848935,26.4496307601088,1.00529984609498e-24,81.1,94.6,35,"take_vaccine_num",60,"More than Secondary","By education","India
+(Subnational, Slums in 2 cities, 1680)"
+"61","India","(Intercept)",85.9,0.0168488739556947,50.9623751110007,9.41357625315892e-70,82.5,89.2,93,"take_vaccine_num",280,"Up to Secondary","By education","India
+(Subnational, Slums in 2 cities, 1680)"
+"62","Mozambique","(Intercept)",86.1,0.0215760562671549,39.9019701125114,9.3443167794506e-42,81.8,90.4,54,"take_vaccine_num",151,"More than Secondary","By education","Mozambique
+(Subnational, 2 cities, 862)"
+"63","Mozambique","(Intercept)",89.7,0.0159719671024754,56.1360196296558,1.89686085824704e-104,86.5,92.8,154,"take_vaccine_num",677,"Up to Secondary","By education","Mozambique
+(Subnational, 2 cities, 862)"
+"64","Pakistan 1","(Intercept)",83.6,0.035118561264366,23.7922048224254,1.35859330231325e-40,76.6,90.5,90,"take_vaccine_num",363,"More than Secondary","By education","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"65","Pakistan 1","(Intercept)",74,0.0329772563658375,22.4336166695851,1.94078073537027e-41,67.4,80.5,103,"take_vaccine_num",1258,"Up to Secondary","By education","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"66","Pakistan 2","(Intercept)",71.4,0.0206692098646077,34.5435301388343,5.13830439025283e-132,67.3,75.5,478,"take_vaccine_num",479,"More than Secondary","By education","Pakistan 2
+(Subnational, 1 province, 1492)"
+"67","Pakistan 2","(Intercept)",64.2,0.0150733675529334,42.5690170443387,9.32662722704629e-228,61.2,67.1,1012,"take_vaccine_num",1013,"Up to Secondary","By education","Pakistan 2
+(Subnational, 1 province, 1492)"
+"68","Russia","(Intercept)",31,0.00732162665226091,42.3891469434833,0,29.6,32.5,20584,"take_vaccine_num",20585,"More than Secondary","By education","Russia
+(Subnational, 61 regions, 22125)"
+"69","Russia","(Intercept)",29.6,0.0119460246305939,24.7978813538471,1.72742538281065e-114,27.3,32,1539,"take_vaccine_num",1540,"Up to Secondary","By education","Russia
+(Subnational, 61 regions, 22125)"
+"70","Rwanda","(Intercept)",71.4,0.0296126604331566,24.0960054041815,2.54877289060322e-65,65.5,77.2,234,"take_vaccine_num",235,"More than Secondary","By education","Rwanda
+(National, 1355)"
+"71","Rwanda","(Intercept)",87.7,0.00986372416966252,88.9335119197202,0,85.8,89.7,1119,"take_vaccine_num",1120,"Up to Secondary","By education","Rwanda
+(National, 1355)"
+"72","Sierra Leone 1","(Intercept)",74.4,0.0217996486119846,34.1251081599453,4.59893254610162e-121,70.1,78.7,404,"take_vaccine_num",405,"More than Secondary","By education","Sierra Leone 1
+(National, 1070)"
+"73","Sierra Leone 1","(Intercept)",80.2,0.0159145037986069,50.3719420572238,1.86338713425169e-223,77,83.3,632,"take_vaccine_num",633,"Up to Secondary","By education","Sierra Leone 1
+(National, 1070)"
+"74","Sierra Leone 2","(Intercept)",88.8,0.0190181878548396,46.67324017479,2.37777475740578e-78,85,92.5,119,"take_vaccine_num",267,"More than Secondary","By education","Sierra Leone 2
+(National, 2110)"
+"75","Sierra Leone 2","(Intercept)",87.8,0.00924895370517288,94.9206222207586,3.85883964799762e-160,86,89.6,187,"take_vaccine_num",1843,"Up to Secondary","By education","Sierra Leone 2
+(National, 2110)"
+"76","USA","(Intercept)",72.3,0.0139551411563262,51.7865581899351,0,69.5,75,1545,"take_vaccine_num",1546,"More than Secondary","By education","USA
+(National, 1959)"
+"77","USA","(Intercept)",51.5,0.0280338596325975,18.3772814496214,1.60400534879081e-55,46,57,412,"take_vaccine_num",413,"Up to Secondary","By education","USA
+(National, 1959)"
+"78","Uganda 1","(Intercept)",80.1,0.0291700098864887,27.4767862767188,1.43709571968732e-67,74.4,85.9,187,"take_vaccine_num",267,"More than Secondary","By education","Uganda 1
+(Subnational, 13 districts, 3362)"
+"79","Uganda 1","(Intercept)",84.8,0.00836021855625629,101.468755292164,0,83.2,86.5,491,"take_vaccine_num",2472,"Up to Secondary","By education","Uganda 1
+(Subnational, 13 districts, 3362)"
+"80","Uganda 2","(Intercept)",68.6,0.0220250386135662,31.1431757408458,2.11500000853479e-82,64.3,72.9,219,"take_vaccine_num",398,"More than Secondary","By education","Uganda 2
+(Subnational, 1 district, 1366)"
+"81","Uganda 2","(Intercept)",79.8,0.0125654049195428,63.4695552004577,2.06820958021989e-174,77.3,82.2,296,"take_vaccine_num",968,"Up to Secondary","By education","Uganda 2
+(Subnational, 1 district, 1366)"
+"82","All","(Intercept)",81.1,0.0248889913041644,32.5858124907846,2.71023870164206e-12,75.6,86.6,11,"take_vaccine_num",13315,"$25-54$","By age","All LMICs"
+"83","All","(Intercept)",79.1,0.0297603599383507,26.5741839313572,1.31374104858152e-10,72.5,85.7,10,"take_vaccine_num",1495,"$55 +$","By age","All LMICs"
+"84","All","(Intercept)",82.8,0.0267978701294751,30.8845143904279,4.85976231058137e-12,76.9,88.7,11,"take_vaccine_num",2441,"$< 25$","By age","All LMICs"
+"85","Burkina Faso","(Intercept)",63.2,0.0513310648573578,12.306897577372,6.5329125651337e-21,53,73.4,89,"take_vaccine_num",90,"$25-54$","By age","Burkina Faso
+(National, 977)"
+"86","Burkina Faso","(Intercept)",76,0.0873974863537593,8.69691266439864,6.97461744172213e-09,58,94,24,"take_vaccine_num",25,"$< 25$","By age","Burkina Faso
+(National, 977)"
+"87","Colombia","(Intercept)",74.2,0.0203811358629648,36.4285648020151,4.18783374996107e-139,70.2,78.3,471,"take_vaccine_num",472,"$25-54$","By age","Colombia
+(National, 1012)"
+"88","Colombia","(Intercept)",73.8,0.0445289176541707,16.5732637585914,3.50706612280095e-30,65,82.6,98,"take_vaccine_num",99,"$55 +$","By age","Colombia
+(National, 1012)"
+"89","Colombia","(Intercept)",75.4,0.040142186698924,18.7890786201768,2.86878109826919e-37,67.5,83.4,118,"take_vaccine_num",119,"$< 25$","By age","Colombia
+(National, 1012)"
+"90","India","(Intercept)",85.4,0.00977301449637775,87.3586071495667,5.31510856026576e-124,83.4,87.3,140,"take_vaccine_num",1314,"$25-54$","By age","India
+(Subnational, Slums in 2 cities, 1680)"
+"91","India","(Intercept)",83.1,0.0275042544932364,30.2073934484875,1.88358794005368e-51,77.6,88.5,98,"take_vaccine_num",179,"$55 +$","By age","India
+(Subnational, Slums in 2 cities, 1680)"
+"92","India","(Intercept)",77.6,0.0301565812368698,25.7286185080082,7.31792445737801e-45,71.6,83.6,96,"take_vaccine_num",187,"$< 25$","By age","India
+(Subnational, Slums in 2 cities, 1680)"
+"93","Mozambique","(Intercept)",88.3,0.0147139639678422,59.9794030906644,2.97629155265346e-104,85.3,91.2,145,"take_vaccine_num",647,"$25-54$","By age","Mozambique
+(Subnational, 2 cities, 862)"
+"94","Mozambique","(Intercept)",91.7,0.0183797171770104,49.895934844895,2.50934338456671e-66,88.1,95.4,88,"take_vaccine_num",205,"$55 +$","By age","Mozambique
+(Subnational, 2 cities, 862)"
+"95","Mozambique","(Intercept)",100,8.39249720850315e-17,11915404618625492,7.74486121170381e-111,100,100,7,"take_vaccine_num",8,"$< 25$","By age","Mozambique
+(Subnational, 2 cities, 862)"
+"96","Nepal","(Intercept)",96.6,0.00684837442138033,141.015815299532,1.70676439317187e-104,95.2,97.9,87,"take_vaccine_num",921,"$25-54$","By age","Nepal
+(Subnational, 2 districts, 1389)"
+"97","Nepal","(Intercept)",93.8,0.0171392340612454,54.7231216780967,4.30353957028229e-56,90.4,97.2,65,"take_vaccine_num",173,"$55 +$","By age","Nepal
+(Subnational, 2 districts, 1389)"
+"98","Nepal","(Intercept)",97.8,0.0102982686080477,94.9471952307176,3.6586200497263e-73,95.7,99.8,67,"take_vaccine_num",230,"$< 25$","By age","Nepal
+(Subnational, 2 districts, 1389)"
+"99","Nigeria","(Intercept)",77.6,0.0107221732767349,72.3339884311172,0,75.5,79.7,1514,"take_vaccine_num",1515,"$25-54$","By age","Nigeria
+(Subnational, 1 state, 1868)"
+"100","Nigeria","(Intercept)",74.7,0.0448174624337348,16.6758308138855,7.81369348582186e-30,65.8,83.6,94,"take_vaccine_num",95,"$55 +$","By age","Nigeria
+(Subnational, 1 state, 1868)"
+"101","Nigeria","(Intercept)",69,0.0288515219105814,23.9128626475376,2.69359060220295e-67,63.3,74.7,257,"take_vaccine_num",258,"$< 25$","By age","Nigeria
+(Subnational, 1 state, 1868)"
+"102","Pakistan 1","(Intercept)",75.6,0.0314462169328037,24.0290744919933,1.78388557385622e-44,69.3,81.8,105,"take_vaccine_num",1551,"$25-54$","By age","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"103","Pakistan 1","(Intercept)",80.8,0.0774101713272733,10.4359837083758,8.65414085123587e-11,64.9,96.7,26,"take_vaccine_num",40,"$55 +$","By age","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"104","Pakistan 1","(Intercept)",86.3,0.0379272228231627,22.752756060002,2.85766430692391e-17,78.4,94.1,23,"take_vaccine_num",42,"$< 25$","By age","Pakistan 1
+(Subnational, 2 districts, 1633)"
+"105","Russia","(Intercept)",27.6,0.00695294112147835,39.6605697407112,0,26.2,28.9,19571,"take_vaccine_num",19572,"$25-54$","By age","Russia
+(Subnational, 61 regions, 22125)"
+"106","Russia","(Intercept)",40,0.0205707560048918,19.4279630378634,7.96328802406777e-65,35.9,44,567,"take_vaccine_num",568,"$55 +$","By age","Russia
+(Subnational, 61 regions, 22125)"
+"107","Russia","(Intercept)",33.5,0.0215835173315279,15.499839220745,3.0957118123881e-51,29.2,37.7,1984,"take_vaccine_num",1985,"$< 25$","By age","Russia
+(Subnational, 61 regions, 22125)"
+"108","Rwanda","(Intercept)",83.8,0.0125341517876485,66.8610211868326,0,81.3,86.3,871,"take_vaccine_num",872,"$25-54$","By age","Rwanda
+(National, 1355)"
+"109","Rwanda","(Intercept)",73.3,0.0695546110336577,10.5378944514301,3.08311585371136e-13,59.2,87.3,41,"take_vaccine_num",42,"$55 +$","By age","Rwanda
+(National, 1355)"
+"110","Rwanda","(Intercept)",88.1,0.015530813172948,56.7125193202839,1.985206823173e-204,85,91.1,440,"take_vaccine_num",441,"$< 25$","By age","Rwanda
+(National, 1355)"
+"111","Sierra Leone 1","(Intercept)",78.3,0.0146023525314536,53.5896838328074,9.57194423365162e-268,75.4,81.1,805,"take_vaccine_num",806,"$25-54$","By age","Sierra Leone 1
+(National, 1070)"
+"112","Sierra Leone 1","(Intercept)",74,0.0626809793409198,11.8128992588679,6.01441767102826e-16,61.4,86.6,49,"take_vaccine_num",50,"$55 +$","By age","Sierra Leone 1
+(National, 1070)"
+"113","Sierra Leone 1","(Intercept)",78,0.0284166890797142,27.4587600605467,6.54632607337719e-72,72.4,83.6,213,"take_vaccine_num",214,"$< 25$","By age","Sierra Leone 1
+(National, 1070)"
+"114","Sierra Leone 2","(Intercept)",87.6,0.00983918723913832,89.0190640155118,1.20268152169444e-155,85.6,89.5,188,"take_vaccine_num",1571,"$25-54$","By age","Sierra Leone 2
+(National, 2110)"
+"115","Sierra Leone 2","(Intercept)",90,0.013359899851229,67.3657744460716,7.37103693218105e-112,87.4,92.6,146,"take_vaccine_num",440,"$55 +$","By age","Sierra Leone 2
+(National, 2110)"
+"116","Sierra Leone 2","(Intercept)",82.9,0.0448760538111578,18.4719309747985,5.69799573061778e-26,73.9,91.9,58,"take_vaccine_num",76,"$< 25$","By age","Sierra Leone 2
+(National, 2110)"
+"117","USA","(Intercept)",64.9,0.0194306999147909,33.3881202631,7.26130258844289e-165,61.1,68.7,1001,"take_vaccine_num",1002,"$25-54$","By age","USA
+(National, 1959)"
+"118","USA","(Intercept)",69.4,0.023030872194008,30.1160312354256,2.07801267583434e-126,64.8,73.9,666,"take_vaccine_num",667,"$55 +$","By age","USA
+(National, 1959)"
+"119","USA","(Intercept)",51,0.0382333282043772,13.3474966800548,5.50290402684623e-32,43.5,58.6,289,"take_vaccine_num",290,"$< 25$","By age","USA
+(National, 1959)"
+"120","Uganda 1","(Intercept)",85.9,0.00781517372801727,109.874901562189,0,84.3,87.4,494,"take_vaccine_num",2583,"$25-54$","By age","Uganda 1
+(Subnational, 13 districts, 3362)"
+"121","Uganda 1","(Intercept)",85.5,0.0143464172251744,59.6165955179888,4.31588247241338e-181,82.7,88.4,337,"take_vaccine_num",615,"$< 25$","By age","Uganda 1
+(Subnational, 13 districts, 3362)"
+"122","Uganda 2","(Intercept)",77,0.013298139827148,57.886605395017,1.15655621828902e-160,74.4,79.6,288,"take_vaccine_num",973,"$25-54$","By age","Uganda 2
+(Subnational, 1 district, 1366)"
+"123","Uganda 2","(Intercept)",73.7,0.0321491091669339,22.9097155471207,2.18064140295312e-46,67.3,80,124,"take_vaccine_num",167,"$55 +$","By age","Uganda 2
+(Subnational, 1 district, 1366)"
+"124","Uganda 2","(Intercept)",76.5,0.0280360129444732,27.3036942585169,2.77848492881947e-63,71,82.1,166,"take_vaccine_num",226,"$< 25$","By age","Uganda 2
+(Subnational, 1 district, 1366)"

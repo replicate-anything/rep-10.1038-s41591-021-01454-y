@@ -1,0 +1,217 @@
+"","group","term","estimate","std.error","statistic","p.value","conf.low","conf.high","df","outcome","n","n_sub","tag","name"
+"1","All","(Intercept)",40.8,0.0686879934369067,5.94097362257337,0.000217751546993672,25.3,56.3,9,"no_vaccine_1",2592,105754,"Concerned about side effects","All"
+"2","Burkina Faso","(Intercept)",40.9,0.0274717939798493,14.9026950760773,1.29188428986294e-38,35.5,46.3,324,"no_vaccine_1",325,13292,"Concerned about side effects","Burkina Faso
+(n=325)"
+"3","Colombia","(Intercept)",31,0.0333950109482978,9.29212402537958,2.55797361003095e-17,24.4,37.6,201,"no_vaccine_1",202,6262,"Concerned about side effects","Colombia
+(n=202)"
+"4","Nepal","(Intercept)",9.3,0.0438989519735587,2.11407599472966,0.042394246188493,0.3,18.2,32,"no_vaccine_1",48,446,"Concerned about side effects","Nepal
+(n=48)"
+"5","Nigeria","(Intercept)",21.5,0.0203012958964482,10.5724357418491,2.94039839840793e-23,17.5,25.5,409,"no_vaccine_1",410,8815,"Concerned about side effects","Nigeria
+(n=410)"
+"6","Pakistan 1","(Intercept)",23,0.0392593718141709,5.84663514303065,1.07646100041652e-07,15.1,30.8,79,"no_vaccine_1",441,10143,"Concerned about side effects","Pakistan 1
+(n=441)"
+"7","Russia","(Intercept)",36.8,0.00811532515247112,45.3918803699776,0,35.2,38.4,16237,"no_vaccine_1",16238,597558,"Concerned about side effects","Russia
+(n=16238)"
+"8","Rwanda","(Intercept)",38.6,0.0586250854247842,6.57938136691653,7.62805288499672e-09,26.9,50.3,69,"no_vaccine_1",70,2702,"Concerned about side effects","Rwanda
+(n=70)"
+"9","Sierra Leone 1","(Intercept)",53.5,0.0327228050132858,16.3501836919969,1.53473464358367e-40,47.1,59.9,233,"no_vaccine_1",234,12519,"Concerned about side effects","Sierra Leone 1
+(n=234)"
+"10","Sierra Leone 2","(Intercept)",57.9,0.0393248741461982,14.7168978933977,2.18721087656841e-28,50.1,65.7,117,"no_vaccine_1",254,14707,"Concerned about side effects","Sierra Leone 2
+(n=254)"
+"11","USA","(Intercept)",79.3,0.0239648714198632,33.1059808117247,6.39519322862202e-124,74.6,84,461,"no_vaccine_1",462,36637,"Concerned about side effects","USA
+(n=462)"
+"12","Uganda 1","(Intercept)",85.1,0.0226169006085191,37.6360619608388,5.77284803444778e-93,80.7,89.6,201,"no_vaccine_1",289,24594,"Concerned about side effects","Uganda 1
+(n=289)"
+"13","Uganda 2","(Intercept)",47.3,0.0260660902431633,18.1597710879972,2.94691699346863e-44,42.2,52.5,201,"no_vaccine_1",319,15089,"Concerned about side effects","Uganda 2
+(n=319)"
+"14","All","(Intercept)",17.6,0.037610119399751,4.67359587947452,0.00227786473393564,8.7,26.5,7,"no_vaccine_2",2049,36062,"Concerned about getting coronavirus from the vaccine","All"
+"15","Burkina Faso","(Intercept)",8,0.0151588652011668,5.29049720146554,2.25089474043846e-07,5,11,324,"no_vaccine_2",325,2600,"Concerned about getting coronavirus from the vaccine","Burkina Faso
+(n=325)"
+"16","Colombia","(Intercept)",18.1,0.0271712564354203,6.65447957350162,2.64290482768822e-10,12.7,23.4,201,"no_vaccine_2",202,3656,"Concerned about getting coronavirus from the vaccine","Colombia
+(n=202)"
+"17","Nepal","(Intercept)",7.9,0.040826952407293,1.94666858181382,0.0603980943684179,-0.4,16.3,32,"no_vaccine_2",48,379,"Concerned about getting coronavirus from the vaccine","Nepal
+(n=48)"
+"18","Nigeria","(Intercept)",26.1,0.0217153929421529,12.0180008002298,1.05995917746029e-28,21.8,30.4,409,"no_vaccine_2",410,10701,"Concerned about getting coronavirus from the vaccine","Nigeria
+(n=410)"
+"19","Pakistan 1","(Intercept)",21.9,0.0379025532911533,5.76682451936109,1.50292750763477e-07,14.3,29.4,79,"no_vaccine_2",441,9658,"Concerned about getting coronavirus from the vaccine","Pakistan 1
+(n=441)"
+"20","Russia","(Intercept)",13.9,0.0057803738784274,24.098611554514,4.19668921757103e-126,12.8,15.1,16237,"no_vaccine_2",16238,225708,"Concerned about getting coronavirus from the vaccine","Russia
+(n=16238)"
+"21","Rwanda","(Intercept)",10.1,0.036341395078884,2.77020663597261,0.00719174886343676,2.8,17.3,69,"no_vaccine_2",70,707,"Concerned about getting coronavirus from the vaccine","Rwanda
+(n=70)"
+"22","Sierra Leone 1","(Intercept)",37.9,0.0318073631162766,11.9123899490776,7.25956835486926e-26,31.6,44.2,233,"no_vaccine_2",234,8869,"Concerned about getting coronavirus from the vaccine","Sierra Leone 1
+(n=234)"
+"23","Uganda 2","(Intercept)",10.7,0.0181021241170111,5.8878765503632,1.62002861328422e-08,7.1,14.2,201,"no_vaccine_2",319,3413,"Concerned about getting coronavirus from the vaccine","Uganda 2
+(n=319)"
+"24","All","(Intercept)",12.6,0.0274258527317415,4.59038653752216,0.00130830801541966,6.4,18.8,9,"no_vaccine_3",2412,30391,"Not concerned about getting seriously ill","All"
+"25","Burkina Faso","(Intercept)",7.4,0.0145532708689243,5.06722129743961,6.79577690628444e-07,4.5,10.2,324,"no_vaccine_3",325,2405,"Not concerned about getting seriously ill","Burkina Faso
+(n=325)"
+"26","Colombia","(Intercept)",8,0.0205802644629245,3.88146479199962,0.000140756826524954,3.9,12,201,"no_vaccine_3",202,1616,"Not concerned about getting seriously ill","Colombia
+(n=202)"
+"27","Mozambique","(Intercept)",2.7,0.0163205142951281,1.65601564621619,0.110218870223872,-0.7,6.1,25,"no_vaccine_3",74,200,"Not concerned about getting seriously ill","Mozambique
+(n=74)"
+"28","Nepal","(Intercept)",20.4,0.0670658354589658,3.04311440710731,0.00465177649806648,6.7,34.1,32,"no_vaccine_3",48,979,"Not concerned about getting seriously ill","Nepal
+(n=48)"
+"29","Nigeria","(Intercept)",15.9,0.0180601234718931,8.77826697101955,4.57104524484474e-17,12.3,19.4,409,"no_vaccine_3",410,6519,"Not concerned about getting seriously ill","Nigeria
+(n=410)"
+"30","Pakistan 1","(Intercept)",29.4,0.0426763321695402,6.89264314492814,1.19799494267078e-09,20.9,37.9,79,"no_vaccine_3",441,12965,"Not concerned about getting seriously ill","Pakistan 1
+(n=441)"
+"31","Russia","(Intercept)",5.4,0.00377990299517622,14.2451219023067,9.0708560001281e-46,4.6,6.1,16237,"no_vaccine_3",16238,87685,"Not concerned about getting seriously ill","Russia
+(n=16238)"
+"32","Rwanda","(Intercept)",18.7,0.0470721587651751,3.97069270707201,0.000173441338944109,9.3,28.1,69,"no_vaccine_3",70,1309,"Not concerned about getting seriously ill","Rwanda
+(n=70)"
+"33","Sierra Leone 1","(Intercept)",14.6,0.0232656756120533,6.29223006786935,1.53509320930556e-09,10.1,19.2,233,"no_vaccine_3",234,3416,"Not concerned about getting seriously ill","Sierra Leone 1
+(n=234)"
+"34","USA","(Intercept)",39.3,0.0290513284016104,13.512783513884,2.74709792353772e-35,33.5,45,461,"no_vaccine_3",462,18157,"Not concerned about getting seriously ill","USA
+(n=462)"
+"35","Uganda 1","(Intercept)",3.8,0.0107538107483934,3.53942287320899,0.000498149846864407,1.7,5.9,201,"no_vaccine_3",289,1098,"Not concerned about getting seriously ill","Uganda 1
+(n=289)"
+"36","Uganda 2","(Intercept)",5,0.0116638132352802,4.30020086914631,2.66030965791101e-05,2.7,7.3,201,"no_vaccine_3",319,1595,"Not concerned about getting seriously ill","Uganda 2
+(n=319)"
+"37","All","(Intercept)",19.2,0.0245548657038229,7.83038804256464,1.41990735901128e-05,13.8,24.7,10,"no_vaccine_4",2666,51187,"Doesn't think vaccines are effective","All"
+"38","Burkina Faso","(Intercept)",19.5,0.0221735517065931,8.77875492402434,9.68960401545962e-17,15.1,23.8,324,"no_vaccine_4",325,6338,"Doesn't think vaccines are effective","Burkina Faso
+(n=325)"
+"39","Colombia","(Intercept)",10.2,0.0218977348110463,4.65651498163394,5.83764902708528e-06,5.9,14.5,201,"no_vaccine_4",202,2060,"Doesn't think vaccines are effective","Colombia
+(n=202)"
+"40","Mozambique","(Intercept)",29.7,0.0538489386100088,5.52094999402717,9.74471138190835e-06,18.6,40.8,25,"no_vaccine_4",74,2198,"Doesn't think vaccines are effective","Mozambique
+(n=74)"
+"41","Nepal","(Intercept)",15.2,0.0591076482943269,2.57178579205625,0.0149659662129413,3.2,27.2,32,"no_vaccine_4",48,730,"Doesn't think vaccines are effective","Nepal
+(n=48)"
+"42","Nigeria","(Intercept)",9.3,0.0143389634431855,6.46371177362304,2.9124089196964e-10,6.4,12.1,409,"no_vaccine_4",410,3813,"Doesn't think vaccines are effective","Nigeria
+(n=410)"
+"43","Pakistan 1","(Intercept)",26,0.0403319676273993,6.44508064466626,8.41662390302102e-09,18,34,79,"no_vaccine_4",441,11466,"Doesn't think vaccines are effective","Pakistan 1
+(n=441)"
+"44","Russia","(Intercept)",29.6,0.00769008204974269,38.502039145575,1.95744480776801e-310,28.1,31.1,16237,"no_vaccine_4",16238,480645,"Doesn't think vaccines are effective","Russia
+(n=16238)"
+"45","Rwanda","(Intercept)",21.5,0.0495953489586986,4.34255503895463,4.73002030634284e-05,11.6,31.4,69,"no_vaccine_4",70,1505,"Doesn't think vaccines are effective","Rwanda
+(n=70)"
+"46","Sierra Leone 1","(Intercept)",7.5,0.0171482151059127,4.39104771297895,1.71200380333719e-05,4.2,10.9,233,"no_vaccine_4",234,1755,"Doesn't think vaccines are effective","Sierra Leone 1
+(n=234)"
+"47","Sierra Leone 2","(Intercept)",17.3,0.0273006304080935,6.34521415319912,4.35684896507285e-09,11.9,22.7,117,"no_vaccine_4",254,4394,"Doesn't think vaccines are effective","Sierra Leone 2
+(n=254)"
+"48","USA","(Intercept)",46.8,0.0295709942020498,15.8379125127732,2.01204137444306e-45,41,52.6,461,"no_vaccine_4",462,21622,"Doesn't think vaccines are effective","USA
+(n=462)"
+"49","Uganda 1","(Intercept)",24.2,0.0253015258587213,9.57311959067016,3.99323496448547e-18,19.2,29.2,201,"no_vaccine_4",289,6994,"Doesn't think vaccines are effective","Uganda 1
+(n=289)"
+"50","Uganda 2","(Intercept)",31,0.0261332670606942,11.8754699466176,5.4619138250858e-25,25.9,36.2,201,"no_vaccine_4",319,9889,"Doesn't think vaccines are effective","Uganda 2
+(n=319)"
+"51","All","(Intercept)",8.7,0.0263904806645467,3.28562630595214,0.0133829047386216,2.4,14.9,7,"no_vaccine_5",1928,16774,"Doesn't think Coronavirus outbreak is as serious as people say","All"
+"52","Burkina Faso","(Intercept)",13.5,0.0188588086849619,7.16740482315771,5.19630662247175e-12,9.8,17.2,324,"no_vaccine_5",325,4388,"Doesn't think Coronavirus outbreak is as serious as people say","Burkina Faso
+(n=325)"
+"53","Colombia","(Intercept)",2.3,0.0102201852432509,2.23410276186064,0.0265778423633635,0.3,4.3,201,"no_vaccine_5",202,465,"Doesn't think Coronavirus outbreak is as serious as people say","Colombia
+(n=202)"
+"54","Nepal","(Intercept)",15.7,0.0569691060971756,2.74734172804177,0.0097847965804704,4,27.3,32,"no_vaccine_5",48,754,"Doesn't think Coronavirus outbreak is as serious as people say","Nepal
+(n=48)"
+"55","Pakistan 1","(Intercept)",22.1,0.0464643110622765,4.75184548760089,8.88238559375142e-06,12.8,31.3,79,"no_vaccine_5",441,9746,"Doesn't think Coronavirus outbreak is as serious as people say","Pakistan 1
+(n=441)"
+"56","Russia","(Intercept)",6.4,0.00417791852778239,15.435164666007,2.27279344922205e-53,5.6,7.3,16237,"no_vaccine_5",16238,103923,"Doesn't think Coronavirus outbreak is as serious as people say","Russia
+(n=16238)"
+"57","Rwanda","(Intercept)",5.8,0.0283075896677148,2.04644586541656,0.0445245725698308,0.1,11.4,69,"no_vaccine_5",70,406,"Doesn't think Coronavirus outbreak is as serious as people say","Rwanda
+(n=70)"
+"58","Sierra Leone 1","(Intercept)",4.2,0.0131688193876991,3.21852932221985,0.00147177945797017,1.6,6.8,233,"no_vaccine_5",234,983,"Doesn't think Coronavirus outbreak is as serious as people say","Sierra Leone 1
+(n=234)"
+"59","Uganda 1","(Intercept)",1.7,0.00764531139324857,2.2629605482861,0.0247070113808657,0.2,3.2,201,"no_vaccine_5",289,491,"Doesn't think Coronavirus outbreak is as serious as people say","Uganda 1
+(n=289)"
+"60","Uganda 2","(Intercept)",4.1,0.010890911564208,3.74186778185838,0.000238310622211142,1.9,6.2,201,"no_vaccine_5",319,1308,"Doesn't think Coronavirus outbreak is as serious as people say","Uganda 2
+(n=319)"
+"61","All","(Intercept)",4.3,0.0111726471908958,3.82022151326729,0.00508812119019809,1.7,6.8,8,"no_vaccine_6",2182,9383,"Doesn't like needles","All"
+"62","Burkina Faso","(Intercept)",3.5,0.0104742102242125,3.35759016781888,0.00087987777434007,1.5,5.6,324,"no_vaccine_6",325,1138,"Doesn't like needles","Burkina Faso
+(n=325)"
+"63","Colombia","(Intercept)",0.6,0.006032190370235,1.0010400932828,0.318011010136429,-0.6,1.8,201,"no_vaccine_6",202,121,"Doesn't like needles","Colombia
+(n=202)"
+"64","Nepal","(Intercept)",4.4,0.0307876920044877,1.41832383786969,0.165762242159901,-1.9,10.6,32,"no_vaccine_6",48,211,"Doesn't like needles","Nepal
+(n=48)"
+"65","Pakistan 1","(Intercept)",11.5,0.0298363361903363,3.84847613233378,0.000239799902693904,5.5,17.4,79,"no_vaccine_6",441,5072,"Doesn't like needles","Pakistan 1
+(n=441)"
+"66","Russia","(Intercept)",3.7,0.00325686353366304,11.3583716554473,8.72995502220967e-30,3.1,4.3,16237,"no_vaccine_6",16238,60081,"Doesn't like needles","Russia
+(n=16238)"
+"67","Rwanda","(Intercept)",7,0.0306340953357026,2.30009240631469,0.0244723918202248,0.9,13.2,69,"no_vaccine_6",70,490,"Doesn't like needles","Rwanda
+(n=70)"
+"68","Sierra Leone 1","(Intercept)",3,0.0111463727517011,2.67554284777192,0.00799011536341706,0.8,5.2,233,"no_vaccine_6",234,702,"Doesn't like needles","Sierra Leone 1
+(n=234)"
+"69","Sierra Leone 2","(Intercept)",5.1,0.0133971844945845,3.82028794056642,0.000214967189473497,2.5,7.8,117,"no_vaccine_6",254,1295,"Doesn't like needles","Sierra Leone 2
+(n=254)"
+"70","Uganda 1","(Intercept)",1.7,0.00759065742448233,2.27925423250986,0.0237023122287723,0.2,3.2,201,"no_vaccine_6",289,491,"Doesn't like needles","Uganda 1
+(n=289)"
+"71","Uganda 2","(Intercept)",1.6,0.00691478619492487,2.26673403188179,0.0244710814797299,0.2,2.9,201,"no_vaccine_6",319,510,"Doesn't like needles","Uganda 2
+(n=319)"
+"72","All","(Intercept)",17.3,0.0285958058696108,6.06288175000644,0.000121515083623568,11,23.7,10,"no_vaccine_666",2666,46122,"Other reasons","All"
+"73","Burkina Faso","(Intercept)",8.7,0.0157618136043609,5.51189898705735,7.25500861215201e-08,5.6,11.8,324,"no_vaccine_666",325,2827,"Other reasons","Burkina Faso
+(n=325)"
+"74","Colombia","(Intercept)",31.6,0.0330033371937964,9.58992498514704,3.57118902129253e-18,25.1,38.2,201,"no_vaccine_666",202,6383,"Other reasons","Colombia
+(n=202)"
+"75","Mozambique","(Intercept)",21.6,0.0457114026190366,4.73002804175982,7.50092886952346e-05,12.2,31,25,"no_vaccine_666",74,1598,"Other reasons","Mozambique
+(n=74)"
+"76","Nepal","(Intercept)",12.1,0.0557312467814356,2.17162685357783,0.0374062882413684,0.8,23.5,32,"no_vaccine_666",48,581,"Other reasons","Nepal
+(n=48)"
+"77","Nigeria","(Intercept)",26.8,0.0219084402361579,12.2460878106711,1.36669194200455e-29,22.5,31.1,409,"no_vaccine_666",410,10988,"Other reasons","Nigeria
+(n=410)"
+"78","Pakistan 1","(Intercept)",19.6,0.0462372667945354,4.23480659847883,6.13194226795832e-05,10.4,28.8,79,"no_vaccine_666",441,8644,"Other reasons","Pakistan 1
+(n=441)"
+"79","Russia","(Intercept)",5.1,0.00360272205279493,14.2737049886106,6.05309053990682e-46,4.4,5.8,16237,"no_vaccine_666",16238,82814,"Other reasons","Russia
+(n=16238)"
+"80","Rwanda","(Intercept)",25.8,0.0527269970636293,4.88907468402626,6.3504838867013e-06,15.3,36.3,69,"no_vaccine_666",70,1806,"Other reasons","Rwanda
+(n=70)"
+"81","Sierra Leone 1","(Intercept)",5.7,0.0149595817103252,3.83833944387674,0.00015960695375033,2.8,8.7,233,"no_vaccine_666",234,1334,"Other reasons","Sierra Leone 1
+(n=234)"
+"82","Sierra Leone 2","(Intercept)",24.8,0.0275955999811912,8.98808129673019,5.22032131447313e-15,19.3,30.3,117,"no_vaccine_666",254,6299,"Other reasons","Sierra Leone 2
+(n=254)"
+"83","USA","(Intercept)",49.1,0.0295897606180806,16.602503400914,7.27859385983395e-49,43.3,54.9,461,"no_vaccine_666",462,22684,"Other reasons","USA
+(n=462)"
+"84","Uganda 1","(Intercept)",8,0.0155333547866597,5.12347629855555,7.01410413388039e-07,4.9,11,201,"no_vaccine_666",289,2312,"Other reasons","Uganda 1
+(n=289)"
+"85","Uganda 2","(Intercept)",6,0.0128469242951426,4.63621697756603,6.37960548292617e-06,3.4,8.5,201,"no_vaccine_666",319,1914,"Other reasons","Uganda 2
+(n=319)"
+"86","All","(Intercept)",1.5,0.00717929957409011,2.15161645142924,0.0749388864944195,-0.2,3.3,6,"no_vaccine_7",1608,2412,"Allergic to vaccines","All"
+"87","Burkina Faso","(Intercept)",1.5,0.00663139559848928,2.24410338264949,0.0255005873281021,0.2,2.8,324,"no_vaccine_7",325,488,"Allergic to vaccines","Burkina Faso
+(n=325)"
+"88","Colombia","(Intercept)",0.4,0.00429708678483018,0.999286113928817,0.318857588215131,-0.4,1.3,201,"no_vaccine_7",202,81,"Allergic to vaccines","Colombia
+(n=202)"
+"89","Nepal","(Intercept)",1.8,0.0179926023604393,1.00148741215304,0.324104522412524,-1.9,5.5,32,"no_vaccine_7",48,86,"Allergic to vaccines","Nepal
+(n=48)"
+"90","Nigeria","(Intercept)",0.2,0.0024390243902439,1,0.317901761555866,-0.2,0.7,409,"no_vaccine_7",410,82,"Allergic to vaccines","Nigeria
+(n=410)"
+"91","Russia","(Intercept)",10.2,0.00500832593776335,20.3670560668905,4.49232605571701e-91,9.2,11.2,16237,"no_vaccine_7",16238,165628,"Allergic to vaccines","Russia
+(n=16238)"
+"92","Rwanda","(Intercept)",5.6,0.0276043817354314,2.04064465234541,0.0451143471301878,0.1,11.1,69,"no_vaccine_7",70,392,"Allergic to vaccines","Rwanda
+(n=70)"
+"93","Sierra Leone 1","(Intercept)",0.9,0.00636859244615225,1.41792990634487,0.157547217619377,-0.4,2.2,233,"no_vaccine_7",234,211,"Allergic to vaccines","Sierra Leone 1
+(n=234)"
+"94","Uganda 2","(Intercept)",0.3,0.00313260928265693,1.00069812587216,0.318175948047474,-0.3,0.9,201,"no_vaccine_7",319,96,"Allergic to vaccines","Uganda 2
+(n=319)"
+"95","All","(Intercept)",1.3,0.00693439054119669,1.8416834028303,0.139326180771216,-0.6,3.2,4,"no_vaccine_8",1304,1695,"Won't have time to get vaccinated","All"
+"96","Burkina Faso","(Intercept)",0.9,0.00519459582620456,1.73191449693575,0.0842405489426534,-0.1,1.9,324,"no_vaccine_8",325,292,"Won't have time to get vaccinated","Burkina Faso
+(n=325)"
+"97","Colombia","(Intercept)",0.5,0.00492760514482578,0.999921708395906,0.318550639743465,-0.5,1.5,201,"no_vaccine_8",202,101,"Won't have time to get vaccinated","Colombia
+(n=202)"
+"98","Russia","(Intercept)",1,0.00177635501769892,5.64607448568835,1.66899521781547e-08,0.7,1.4,16237,"no_vaccine_8",16238,16238,"Won't have time to get vaccinated","Russia
+(n=16238)"
+"99","Sierra Leone 1","(Intercept)",4,0.0129498845444607,3.0541061348716,0.00251980235128095,1.4,6.5,233,"no_vaccine_8",234,936,"Won't have time to get vaccinated","Sierra Leone 1
+(n=234)"
+"100","Sierra Leone 2","(Intercept)",0,0,NA,NA,0,0,117,"no_vaccine_8",254,NA,"Won't have time to get vaccinated","Sierra Leone 2
+(n=254)"
+"101","Uganda 1","(Intercept)",1,0.00596500902676455,1.7402526619479,0.0833451386091511,-0.1,2.2,201,"no_vaccine_8",289,289,"Won't have time to get vaccinated","Uganda 1
+(n=289)"
+"102","All","(Intercept)",11.6,0.0236617560163526,4.89945856128635,0.00119458724867792,6.1,17,8,"no_vaccine_9",2303,26715,"Mentions a conspiracy theory","All"
+"103","Burkina Faso","(Intercept)",17.9,0.0212821117862977,8.42377507173263,1.2020079904513e-15,13.7,22.1,324,"no_vaccine_9",325,5817,"Mentions a conspiracy theory","Burkina Faso
+(n=325)"
+"104","Colombia","(Intercept)",10,0.0213399934577525,4.6894692515858,5.05103352426147e-06,5.8,14.2,201,"no_vaccine_9",202,2020,"Mentions a conspiracy theory","Colombia
+(n=202)"
+"105","Nepal","(Intercept)",2.8,0.0212411850480105,1.33307747591214,0.19191995510859,-1.5,7.2,32,"no_vaccine_9",48,134,"Mentions a conspiracy theory","Nepal
+(n=48)"
+"106","Nigeria","(Intercept)",4.9,0.0106512797323795,4.57977717518648,6.18727177940633e-06,2.8,7,409,"no_vaccine_9",410,2009,"Mentions a conspiracy theory","Nigeria
+(n=410)"
+"107","Pakistan 1","(Intercept)",13.2,0.0308108984580719,4.29332736464534,4.95647739348898e-05,7.1,19.4,79,"no_vaccine_9",441,5821,"Mentions a conspiracy theory","Pakistan 1
+(n=441)"
+"108","Russia","(Intercept)",21.4,0.00690826615418982,30.9994590095584,4.93240682192803e-205,20.1,22.8,16237,"no_vaccine_9",16238,347493,"Mentions a conspiracy theory","Russia
+(n=16238)"
+"109","Rwanda","(Intercept)",21.3,0.0491850005356007,4.32753738933366,4.99045707325498e-05,11.5,31.1,69,"no_vaccine_9",70,1491,"Mentions a conspiracy theory","Rwanda
+(n=70)"
+"110","Sierra Leone 1","(Intercept)",20.3,0.0262844593667839,7.71977033694164,3.41406460598981e-13,15.1,25.5,233,"no_vaccine_9",234,4750,"Mentions a conspiracy theory","Sierra Leone 1
+(n=234)"
+"111","Sierra Leone 2","(Intercept)",3.5,0.0110871061912116,3.19588089579482,0.00179250597443026,1.3,5.7,117,"no_vaccine_9",254,889,"Mentions a conspiracy theory","Sierra Leone 2
+(n=254)"
+"112","USA","(Intercept)",6,0.0135512372220238,4.43769013751424,1.13877690238638e-05,3.4,8.7,461,"no_vaccine_9",462,2772,"Mentions a conspiracy theory","USA
+(n=462)"
+"113","Uganda 2","(Intercept)",10.3,0.0167801350959315,6.16492508973606,3.79733228957742e-09,7,13.7,201,"no_vaccine_9",319,3286,"Mentions a conspiracy theory","Uganda 2
+(n=319)"
