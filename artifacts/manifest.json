@@ -2,7 +2,8 @@
   "generated_at": "2026-06-29T21:35:59Z",
   "folder": "10.1038_s41591-021-01454-y",
   "doi": "10.1038/s41591-021-01454-y",
-  "study_path": "C:/WZB Dropbox/Macartan Humphreys/5_github/replicate_everything/rep-10.1038-s41591-021-01454-y",
+  "study_repo": "replicate-anything/rep-10.1038-s41591-021-01454-y",
+  "study_folder": "rep-10.1038-s41591-021-01454-y",
   "replications": {
     "fig_1": {
       "status": "ok",
