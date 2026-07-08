@@ -1,5 +1,5 @@
 # Lightweight registry stub for a folder-backed study.
-# Copy to registry/papers/<folder>.yml in the registry repo.
+# Copy to registry/studies/<folder>.yml in the registry repo.
 # Registry folder: 10.1038_s41591-021-01454-y
 
 paper:

@@ -1,5 +1,5 @@
 # Differences between groups within studies (Summary) — COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries
-# Paper folder: https://github.com/replicate-anything/registry/tree/main/papers/10.1038_s41591-021-01454-y
+# Paper folder: https://github.com/replicate-anything/registry/tree/main/studies/10.1038_s41591-021-01454-y
 # Run from the paper's code/ folder: Rscript tab_5.R
 
 library(dplyr)
