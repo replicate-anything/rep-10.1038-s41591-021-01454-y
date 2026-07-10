@@ -29,4 +29,11 @@ paper:
   study_ref: main
   study_folder: rep-10.1038-s41591-021-01454-y
 repo: replicate-anything/rep-10.1038-s41591-021-01454-y
+maintainer:
+  name: Macartan Humphreys
+  email: macartan.humphreys@wzb.eu
+collections:
+- IPI
+languages:
+- r
 
