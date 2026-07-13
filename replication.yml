@@ -3,135 +3,252 @@ paper:
   title: COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries
   journal: Nature Medicine
   year: 2021
-  authors: Julio S. Solís Arce, Shana S. Warren, Niccolò F. Meriggi, Alexandra Scacco, Nina McMurry, Maarten Voors, Georgiy Syunyaev, Amyn Abdul Malik, Samya Aboutajdine, Opeyemi Adeojo, Deborah Anigo, Alex Armand, Saher Asad, Martin Atyera, Britta Augsburg, Manisha Awasthi, Gloria Eden Ayesiga, Antonella Bancalari, Martina Björkman Nyqvist, Ekaterina Borisova, Constantin Manuel Bosancianu, Magarita Rosa Cabra García, Ali Cheema, Elliott Collins, Filippo Cuccaro, Ahsan Zia Farooqi, Tatheer Fatima, Mattia Fracchia, Mery Len Galindo Soria, Andrea Guariso, Ali Hasanain, Sofía Jaramillo, Sellu Kallon, Anthony Kamwesigye, Arjun Kharel, Sarah Kreps, Madison Levine, Rebecca Littman, Mohammad Malik, Gisele Manirabaruta, Jean Léodomir Habarimana Mfura, Fatoma Momoh, Alberto Mucauque, Imamo Mussa, Jean Aime Nsabimana, Isaac Obara, María Juliana Otálora, Béchir Wendemi Ouédraogo, Touba Bakary Pare, Melina R. Platas, Laura Polanco, Javaeria Ashraf Qureshi, Mariam Raheem, Vasudha Ramakrishna, Ismail Rendrá, Taimur Shah, Sarene Eyla Shaked, Jacob N. Shapiro, Jakob Svensson, Ahsan Tariq, Achille Mignondo Tchibozo, Hamid Ali Tiwana, Bhartendu Trivedi, Corey Vernot, Pedro C. Vicente, Laurin B. Weissinger, Basit Zafar, Baobao Zhang, Dean Karlan, Michael Callen, Matthieu Teachout, Macartan Humphreys, Ahmed Mushfiq Mobarak, Saad B. Omer
+  authors: Julio S. Solís Arce, Shana S. Warren, Niccolò F. Meriggi, Alexandra Scacco,
+    Nina McMurry, Maarten Voors, Georgiy Syunyaev, Amyn Abdul Malik, Samya Aboutajdine,
+    Opeyemi Adeojo, Deborah Anigo, Alex Armand, Saher Asad, Martin Atyera, Britta
+    Augsburg, Manisha Awasthi, Gloria Eden Ayesiga, Antonella Bancalari, Martina Björkman
+    Nyqvist, Ekaterina Borisova, Constantin Manuel Bosancianu, Magarita Rosa Cabra
+    García, Ali Cheema, Elliott Collins, Filippo Cuccaro, Ahsan Zia Farooqi, Tatheer
+    Fatima, Mattia Fracchia, Mery Len Galindo Soria, Andrea Guariso, Ali Hasanain,
+    Sofía Jaramillo, Sellu Kallon, Anthony Kamwesigye, Arjun Kharel, Sarah Kreps,
+    Madison Levine, Rebecca Littman, Mohammad Malik, Gisele Manirabaruta, Jean Léodomir
+    Habarimana Mfura, Fatoma Momoh, Alberto Mucauque, Imamo Mussa, Jean Aime Nsabimana,
+    Isaac Obara, María Juliana Otálora, Béchir Wendemi Ouédraogo, Touba Bakary Pare,
+    Melina R. Platas, Laura Polanco, Javaeria Ashraf Qureshi, Mariam Raheem, Vasudha
+    Ramakrishna, Ismail Rendrá, Taimur Shah, Sarene Eyla Shaked, Jacob N. Shapiro,
+    Jakob Svensson, Ahsan Tariq, Achille Mignondo Tchibozo, Hamid Ali Tiwana, Bhartendu
+    Trivedi, Corey Vernot, Pedro C. Vicente, Laurin B. Weissinger, Basit Zafar, Baobao
+    Zhang, Dean Karlan, Michael Callen, Matthieu Teachout, Macartan Humphreys, Ahmed
+    Mushfiq Mobarak, Saad B. Omer
   dependencies:
-    - dplyr
-    - ggplot2
-    - kableExtra
-    - forcats
-    - tidyr
-    - broom
-    - plyr
-    - estimatr
-    - knitr
-
+  - dplyr
+  - ggplot2
+  - kableExtra
+  - forcats
+  - tidyr
+  - broom
+  - plyr
+  - estimatr
+  - knitr
 maintainer:
   name: Macartan Humphreys
   email: macartan.humphreys@wzb.eu
-
 collections:
-  - IPI
-
+- IPI
 languages:
-  - r
-
-replications:
-
-  - id: fig_1
-    type: figure
-    description: "Acceptance Rates (disaggregated by group)"
-    data: data/fig_1.csv
-    code: code/fig_1.R
-
-  - id: fig_2
-    type: figure
-    description: Robustness check using leave-m-out approach
-    data: 
-    - data/fig_2_hist.csv
-    - data/fig_2_ref.csv
-    code: code/fig_2.R
-
-  - id: fig_3
-    type: figure
-    description: Reason not to take vaccine
-    data: data/fig_3.csv
-    code: code/fig_3.R
-
-  - id: fig_4
-    type: figure
-    description: Trust
-    data: data/combined.csv
-    code: code/fig_4.R
-
-  - id: fig_5
-    type: figure
-    description: Trust by acceptance
-    data: data/combined.csv
-    code: code/fig_5.R
-
-  - id: fig_6
-    type: figure
-    description: Trust by gender
-    data: data/combined.csv
-    code: code/fig_6.R
-
-  - id: tab_1
-    type: table
-    description: "Vaccine Data from WGM, WHO"
-    data: 
-    - data/table_wgm.csv
-    - data/vacc_cov.csv
-    code: code/tab_1.R
-
-  - id: tab_2
-    type: table
-    description: "Summary of Studies' Sampling"
-    data: data/studies_info_sample.csv
-    code: code/tab_2.R
-
-  - id: tab_3
-    type: table
-    description: Differences in Means
-    data: data/combined.csv
-    code: code/tab_3.R
-
-  - id: tab_4
-    type: table
-    description: "Difference in Means (by study)"
-    data: data/combined.csv
-    code: code/tab_4.R
-
-  - id: tab_5
-    type: table
-    description: "Differences between groups within studies (Summary)"
-    data: data/combined.csv
-    code: code/tab_5.R
-
-  - id: tab_6
-    type: table
-    description: "Reason to take"
-    data: data/combined.csv
-    code: code/tab_6.R
-
-
-  - id: tab_7
-    type: table
-    description: "Reason to take the vaccine. All categories."
-    data: data/combined.csv
-    code: code/tab_7.R
-
-  - id: tab_8
-    type: table
-    description: "Reason to take the vaccine: by age."
-    data: data/combined.csv
-    code: code/tab_8.R
-
-  - id: tab_9
-    type: table
-    description: Reason not to take the vaccine
-    data: data/combined.csv
-    code: code/tab_9.R
-
-  - id: tab_10
-    type: table
-    description: "Vaccination Decision-making: most trusted source."
-    data: data/combined.csv
-    code: code/tab_10.R
-
-  - id: tab_11
-    type: table
-    description: Summary Stats
-    data: 
-    - data/combined.csv
-    - data/wgm_2018_publiccsv.csv
-    code: code/tab_11.R
+- r
+steps:
+- type: figure
+  description: Acceptance Rates (disaggregated by group)
+  data: data/fig_1.csv
+  code: code/fig_1.R
+  artifact: outputs/fig_1.png
+  id: fig_1
+  parents: []
+  outputs:
+  - outputs/fig_1.png
+  inputs:
+  - data/fig_1.csv
+  engine: r
+- type: figure
+  description: Robustness check using leave-m-out approach
+  data:
+  - data/fig_2_hist.csv
+  - data/fig_2_ref.csv
+  code: code/fig_2.R
+  artifact: outputs/fig_2.png
+  id: fig_2
+  parents: []
+  outputs:
+  - outputs/fig_2.png
+  inputs:
+  - data/fig_2_hist.csv
+  - data/fig_2_ref.csv
+  engine: r
+- type: figure
+  description: Reason not to take vaccine
+  data: data/fig_3.csv
+  code: code/fig_3.R
+  artifact: outputs/fig_3.png
+  id: fig_3
+  parents: []
+  outputs:
+  - outputs/fig_3.png
+  inputs:
+  - data/fig_3.csv
+  engine: r
+- type: figure
+  description: Trust
+  data: data/combined.csv
+  code: code/fig_4.R
+  artifact: outputs/fig_4.png
+  id: fig_4
+  parents: []
+  outputs:
+  - outputs/fig_4.png
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: figure
+  description: Trust by acceptance
+  data: data/combined.csv
+  code: code/fig_5.R
+  artifact: outputs/fig_5.png
+  id: fig_5
+  parents: []
+  outputs:
+  - outputs/fig_5.png
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: figure
+  description: Trust by gender
+  data: data/combined.csv
+  code: code/fig_6.R
+  artifact: outputs/fig_6.png
+  id: fig_6
+  parents: []
+  outputs:
+  - outputs/fig_6.png
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Vaccine Data from WGM, WHO
+  data:
+  - data/table_wgm.csv
+  - data/vacc_cov.csv
+  code: code/tab_1.R
+  artifact: outputs/tab_1.html
+  id: tab_1
+  parents: []
+  outputs:
+  - outputs/tab_1.html
+  inputs:
+  - data/table_wgm.csv
+  - data/vacc_cov.csv
+  engine: r
+- type: table
+  description: Summary of Studies' Sampling
+  data: data/studies_info_sample.csv
+  code: code/tab_2.R
+  artifact: outputs/tab_2.html
+  id: tab_2
+  parents: []
+  outputs:
+  - outputs/tab_2.html
+  inputs:
+  - data/studies_info_sample.csv
+  engine: r
+- type: table
+  description: Differences in Means
+  data: data/combined.csv
+  code: code/tab_3.R
+  artifact: outputs/tab_3.html
+  id: tab_3
+  parents: []
+  outputs:
+  - outputs/tab_3.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Difference in Means (by study)
+  data: data/combined.csv
+  code: code/tab_4.R
+  artifact: outputs/tab_4.html
+  id: tab_4
+  parents: []
+  outputs:
+  - outputs/tab_4.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Differences between groups within studies (Summary)
+  data: data/combined.csv
+  code: code/tab_5.R
+  artifact: outputs/tab_5.html
+  id: tab_5
+  parents: []
+  outputs:
+  - outputs/tab_5.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Reason to take
+  data: data/combined.csv
+  code: code/tab_6.R
+  artifact: outputs/tab_6.html
+  id: tab_6
+  parents: []
+  outputs:
+  - outputs/tab_6.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Reason to take the vaccine. All categories.
+  data: data/combined.csv
+  code: code/tab_7.R
+  artifact: outputs/tab_7.html
+  id: tab_7
+  parents: []
+  outputs:
+  - outputs/tab_7.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: 'Reason to take the vaccine: by age.'
+  data: data/combined.csv
+  code: code/tab_8.R
+  artifact: outputs/tab_8.html
+  id: tab_8
+  parents: []
+  outputs:
+  - outputs/tab_8.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Reason not to take the vaccine
+  data: data/combined.csv
+  code: code/tab_9.R
+  artifact: outputs/tab_9.html
+  id: tab_9
+  parents: []
+  outputs:
+  - outputs/tab_9.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: 'Vaccination Decision-making: most trusted source.'
+  data: data/combined.csv
+  code: code/tab_10.R
+  artifact: outputs/tab_10.html
+  id: tab_10
+  parents: []
+  outputs:
+  - outputs/tab_10.html
+  inputs:
+  - data/combined.csv
+  engine: r
+- type: table
+  description: Summary Stats
+  data:
+  - data/combined.csv
+  - data/wgm_2018_publiccsv.csv
+  code: code/tab_11.R
+  artifact: outputs/tab_11.html
+  id: tab_11
+  parents: []
+  outputs:
+  - outputs/tab_11.html
+  inputs:
+  - data/combined.csv
+  - data/wgm_2018_publiccsv.csv
+  engine: r
+repo: replicate-anything/rep-10.1038-s41591-021-01454-y
