@@ -43,7 +43,6 @@ steps:
   data: data/fig_1.csv
   code: code/fig_1.R
   id: fig_1
-  parents: []
   outputs:
   - outputs/fig_1.png
   inputs:
@@ -56,7 +55,6 @@ steps:
   - data/fig_2_ref.csv
   code: code/fig_2.R
   id: fig_2
-  parents: []
   outputs:
   - outputs/fig_2.png
   inputs:
@@ -68,7 +66,6 @@ steps:
   data: data/fig_3.csv
   code: code/fig_3.R
   id: fig_3
-  parents: []
   outputs:
   - outputs/fig_3.png
   inputs:
@@ -79,7 +76,6 @@ steps:
   data: data/combined.csv
   code: code/fig_4.R
   id: fig_4
-  parents: []
   outputs:
   - outputs/fig_4.png
   inputs:
@@ -90,7 +86,6 @@ steps:
   data: data/combined.csv
   code: code/fig_5.R
   id: fig_5
-  parents: []
   outputs:
   - outputs/fig_5.png
   inputs:
@@ -101,7 +96,6 @@ steps:
   data: data/combined.csv
   code: code/fig_6.R
   id: fig_6
-  parents: []
   outputs:
   - outputs/fig_6.png
   inputs:
@@ -114,7 +108,6 @@ steps:
   - data/vacc_cov.csv
   code: code/tab_1.R
   id: tab_1
-  parents: []
   outputs:
   - outputs/tab_1.html
   inputs:
@@ -126,7 +119,6 @@ steps:
   data: data/studies_info_sample.csv
   code: code/tab_2.R
   id: tab_2
-  parents: []
   outputs:
   - outputs/tab_2.html
   inputs:
@@ -137,7 +129,6 @@ steps:
   data: data/combined.csv
   code: code/tab_3.R
   id: tab_3
-  parents: []
   outputs:
   - outputs/tab_3.html
   inputs:
@@ -148,7 +139,6 @@ steps:
   data: data/combined.csv
   code: code/tab_4.R
   id: tab_4
-  parents: []
   outputs:
   - outputs/tab_4.html
   inputs:
@@ -159,7 +149,6 @@ steps:
   data: data/combined.csv
   code: code/tab_5.R
   id: tab_5
-  parents: []
   outputs:
   - outputs/tab_5.html
   inputs:
@@ -170,7 +159,6 @@ steps:
   data: data/combined.csv
   code: code/tab_6.R
   id: tab_6
-  parents: []
   outputs:
   - outputs/tab_6.html
   inputs:
@@ -181,7 +169,6 @@ steps:
   data: data/combined.csv
   code: code/tab_7.R
   id: tab_7
-  parents: []
   outputs:
   - outputs/tab_7.html
   inputs:
@@ -192,7 +179,6 @@ steps:
   data: data/combined.csv
   code: code/tab_8.R
   id: tab_8
-  parents: []
   outputs:
   - outputs/tab_8.html
   inputs:
@@ -203,7 +189,6 @@ steps:
   data: data/combined.csv
   code: code/tab_9.R
   id: tab_9
-  parents: []
   outputs:
   - outputs/tab_9.html
   inputs:
@@ -214,7 +199,6 @@ steps:
   data: data/combined.csv
   code: code/tab_10.R
   id: tab_10
-  parents: []
   outputs:
   - outputs/tab_10.html
   inputs:
@@ -227,7 +211,6 @@ steps:
   - data/wgm_2018_publiccsv.csv
   code: code/tab_11.R
   id: tab_11
-  parents: []
   outputs:
   - outputs/tab_11.html
   inputs:
