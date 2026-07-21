@@ -42,7 +42,6 @@ steps:
   description: Acceptance Rates (disaggregated by group)
   data: data/fig_1.csv
   code: code/fig_1.R
-  artifact: outputs/fig_1.png
   id: fig_1
   parents: []
   outputs:
@@ -56,7 +55,6 @@ steps:
   - data/fig_2_hist.csv
   - data/fig_2_ref.csv
   code: code/fig_2.R
-  artifact: outputs/fig_2.png
   id: fig_2
   parents: []
   outputs:
@@ -69,7 +67,6 @@ steps:
   description: Reason not to take vaccine
   data: data/fig_3.csv
   code: code/fig_3.R
-  artifact: outputs/fig_3.png
   id: fig_3
   parents: []
   outputs:
@@ -81,7 +78,6 @@ steps:
   description: Trust
   data: data/combined.csv
   code: code/fig_4.R
-  artifact: outputs/fig_4.png
   id: fig_4
   parents: []
   outputs:
@@ -93,7 +89,6 @@ steps:
   description: Trust by acceptance
   data: data/combined.csv
   code: code/fig_5.R
-  artifact: outputs/fig_5.png
   id: fig_5
   parents: []
   outputs:
@@ -105,7 +100,6 @@ steps:
   description: Trust by gender
   data: data/combined.csv
   code: code/fig_6.R
-  artifact: outputs/fig_6.png
   id: fig_6
   parents: []
   outputs:
@@ -119,7 +113,6 @@ steps:
   - data/table_wgm.csv
   - data/vacc_cov.csv
   code: code/tab_1.R
-  artifact: outputs/tab_1.html
   id: tab_1
   parents: []
   outputs:
@@ -132,7 +125,6 @@ steps:
   description: Summary of Studies' Sampling
   data: data/studies_info_sample.csv
   code: code/tab_2.R
-  artifact: outputs/tab_2.html
   id: tab_2
   parents: []
   outputs:
@@ -144,7 +136,6 @@ steps:
   description: Differences in Means
   data: data/combined.csv
   code: code/tab_3.R
-  artifact: outputs/tab_3.html
   id: tab_3
   parents: []
   outputs:
@@ -156,7 +147,6 @@ steps:
   description: Difference in Means (by study)
   data: data/combined.csv
   code: code/tab_4.R
-  artifact: outputs/tab_4.html
   id: tab_4
   parents: []
   outputs:
@@ -168,7 +158,6 @@ steps:
   description: Differences between groups within studies (Summary)
   data: data/combined.csv
   code: code/tab_5.R
-  artifact: outputs/tab_5.html
   id: tab_5
   parents: []
   outputs:
@@ -180,7 +169,6 @@ steps:
   description: Reason to take
   data: data/combined.csv
   code: code/tab_6.R
-  artifact: outputs/tab_6.html
   id: tab_6
   parents: []
   outputs:
@@ -192,7 +180,6 @@ steps:
   description: Reason to take the vaccine. All categories.
   data: data/combined.csv
   code: code/tab_7.R
-  artifact: outputs/tab_7.html
   id: tab_7
   parents: []
   outputs:
@@ -204,7 +191,6 @@ steps:
   description: 'Reason to take the vaccine: by age.'
   data: data/combined.csv
   code: code/tab_8.R
-  artifact: outputs/tab_8.html
   id: tab_8
   parents: []
   outputs:
@@ -216,7 +202,6 @@ steps:
   description: Reason not to take the vaccine
   data: data/combined.csv
   code: code/tab_9.R
-  artifact: outputs/tab_9.html
   id: tab_9
   parents: []
   outputs:
@@ -228,7 +213,6 @@ steps:
   description: 'Vaccination Decision-making: most trusted source.'
   data: data/combined.csv
   code: code/tab_10.R
-  artifact: outputs/tab_10.html
   id: tab_10
   parents: []
   outputs:
@@ -242,7 +226,6 @@ steps:
   - data/combined.csv
   - data/wgm_2018_publiccsv.csv
   code: code/tab_11.R
-  artifact: outputs/tab_11.html
   id: tab_11
   parents: []
   outputs:
