@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-07-22T21:40:00Z",
+  "generated_at": "2026-07-22T22:33:09Z",
   "folder": "10.1038_s41591-021-01454-y",
   "doi": "10.1038/s41591-021-01454-y",
-  "study_repo": "replicate-anything/rep-10.1038-s41591-021-01454-y",
-  "study_folder": "rep-10.1038-s41591-021-01454-y",
+  "prep": {
+    "prep_micro": {
+      "status": "cached",
+      "output": "outputs/df.rds"
+    },
+    "prep_trust": {
+      "status": "cached",
+      "output": "outputs/df_trust.rds"
+    }
+  },
   "replications": {
     "tab_2": {
       "status": "ok",
@@ -35,5 +43,7 @@
       "artifact": "outputs/ext_fig_2.png",
       "format": "ggplot"
     }
-  }
+  },
+  "study_repo": "replicate-anything/rep-10.1038-s41591-021-01454-y",
+  "study_folder": "rep-10.1038-s41591-021-01454-y"
 }

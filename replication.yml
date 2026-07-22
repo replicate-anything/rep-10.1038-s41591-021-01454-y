@@ -22,101 +22,224 @@ paper:
     Mushfiq Mobarak, Saad B. Omer
   study_folder: rep-10.1038-s41591-021-01454-y
   dependencies:
-  - dplyr
-  - ggplot2
-  - kableExtra
-  - forcats
-  - tidyr
-  - broom
-  - plyr
-  - estimatr
-  - knitr
-  - scales
-  - stringr
+    - dplyr
+    - ggplot2
+    - kableExtra
+    - forcats
+    - tidyr
+    - broom
+    - plyr
+    - estimatr
+    - knitr
+    - scales
+    - stringr
+
 maintainer:
   name: Macartan Humphreys
   email: macartan.humphreys@wzb.eu
+
 collections:
-- IPI
+  - IPI
+
 languages:
-- r
+  - r
+
 repo: replicate-anything/rep-10.1038-s41591-021-01454-y
 
 steps:
-- id: tab_2
-  type: table
-  label: Table 2
-  description: Vaccination beliefs and coverage for the countries studied
-  engine: r
-  data:
-  - data/table_wgm.csv
-  - data/vacc_cov.csv
-  inputs:
-  - data/table_wgm.csv
-  - data/vacc_cov.csv
-  code: code/tab_2.R
-  outputs:
-  - outputs/tab_2.html
+  - id: prep_micro
+    type: transform
+    label: Microdata prep
+    description: Cluster IDs, survey weights, age/education bins, and All-LMIC rows from combined.csv
+    engine: r
+    data: data/combined.csv
+    inputs:
+      - data/combined.csv
+    code: code/prep_micro.R
+    outputs:
+      - outputs/df.rds
+      - outputs/df2.rds
+    dependencies:
+      - dplyr
 
-- id: fig_1
-  type: figure
-  label: Fig. 1
-  description: Acceptance rates, overall and by respondent characteristics
-  engine: r
-  data: data/fig_1.csv
-  inputs:
-  - data/fig_1.csv
-  code: code/fig_1.R
-  outputs:
-  - outputs/fig_1.png
+  - id: prep_trust
+    type: transform
+    label: Trust recodes
+    description: Collapse trust items into paper recodes shared by Fig. 3 and Extended Data Fig. 1
+    parents:
+      - prep_micro
+    engine: r
+    data: outputs/df2.rds
+    inputs:
+      - outputs/df2.rds
+    code: code/prep_trust.R
+    outputs:
+      - outputs/df_trust.rds
+    dependencies:
+      - dplyr
 
-- id: fig_2
-  type: figure
-  label: Fig. 2
-  description: Reasons not to take the vaccine
-  engine: r
-  data: data/fig_3.csv
-  inputs:
-  - data/fig_3.csv
-  code: code/fig_2.R
-  outputs:
-  - outputs/fig_2.png
+  - id: tab_2
+    type: table
+    label: Table 2
+    description: Vaccination beliefs and coverage for the countries studied
+    engine: r
+    data:
+      - data/table_wgm.csv
+      - data/vacc_cov.csv
+    inputs:
+      - data/table_wgm.csv
+      - data/vacc_cov.csv
+    code: code/tab_2.R
+    format: format_tab_2
+    outputs:
+      - outputs/tab_2.html
+    dependencies:
+      - dplyr
+      - forcats
+      - kableExtra
+      - knitr
 
-- id: fig_3
-  type: figure
-  label: Fig. 3
-  description: Trusted sources respondents say they would trust most to help them decide whether to take the COVID-19 vaccine
-  engine: r
-  data: data/combined.csv
-  inputs:
-  - data/combined.csv
-  code: code/fig_3.R
-  outputs:
-  - outputs/fig_3.png
+  - id: tab_2_format
+    type: format
+    parent: tab_2
+    code: code/tab_2.R
 
-- id: ext_fig_1
-  type: figure
-  label: Extended Data Fig. 1
-  description: Trusted sources and institutions, broken down by gender
-  engine: r
-  data: data/combined.csv
-  inputs:
-  - data/combined.csv
-  code: code/ext_fig_1.R
-  outputs:
-  - outputs/ext_fig_1.png
+  - id: fig_1
+    type: figure
+    label: Fig. 1
+    description: Acceptance rates, overall and by respondent characteristics
+    parents:
+      - prep_micro
+    engine: r
+    data: outputs/df2.rds
+    inputs:
+      - outputs/df2.rds
+    code: code/fig_1.R
+    format: format_fig_1
+    outputs:
+      - outputs/fig_1.png
+    dependencies:
+      - dplyr
+      - ggplot2
+      - estimatr
+      - broom
+      - plyr
 
-- id: ext_fig_2
-  type: figure
-  label: Extended Data Fig. 2
-  description: Average vaccine acceptance across all LMIC countries leaving one or two study samples out
-  engine: r
-  data:
-  - data/fig_2_hist.csv
-  - data/fig_2_ref.csv
-  inputs:
-  - data/fig_2_hist.csv
-  - data/fig_2_ref.csv
-  code: code/ext_fig_2.R
-  outputs:
-  - outputs/ext_fig_2.png
+  - id: fig_1_format
+    type: format
+    parent: fig_1
+    code: code/fig_1.R
+
+  - id: fig_2
+    type: figure
+    label: Fig. 2
+    description: Reasons not to take the vaccine
+    parents:
+      - prep_micro
+    engine: r
+    data: outputs/df2.rds
+    inputs:
+      - outputs/df2.rds
+    code: code/fig_2.R
+    format: format_fig_2
+    outputs:
+      - outputs/fig_2.png
+    dependencies:
+      - dplyr
+      - ggplot2
+      - forcats
+      - estimatr
+      - broom
+      - plyr
+
+  - id: fig_2_format
+    type: format
+    parent: fig_2
+    code: code/fig_2.R
+
+  - id: fig_3
+    type: figure
+    label: Fig. 3
+    description: Trusted sources respondents say they would trust most to help them decide whether to take the COVID-19 vaccine
+    parents:
+      - prep_trust
+    engine: r
+    data: outputs/df_trust.rds
+    inputs:
+      - outputs/df_trust.rds
+    code: code/fig_3.R
+    format: format_fig_3
+    outputs:
+      - outputs/fig_3.png
+    dependencies:
+      - dplyr
+      - ggplot2
+      - forcats
+      - estimatr
+      - broom
+      - plyr
+      - stringr
+
+  - id: fig_3_format
+    type: format
+    parent: fig_3
+    code: code/fig_3.R
+
+  - id: ext_fig_1
+    type: figure
+    label: Extended Data Fig. 1
+    description: Trusted sources and institutions, broken down by gender
+    parents:
+      - prep_trust
+    engine: r
+    data: outputs/df_trust.rds
+    inputs:
+      - outputs/df_trust.rds
+    code: code/ext_fig_1.R
+    format: format_ext_fig_1
+    outputs:
+      - outputs/ext_fig_1.png
+    dependencies:
+      - dplyr
+      - ggplot2
+      - forcats
+      - estimatr
+      - broom
+      - plyr
+      - stringr
+
+  - id: ext_fig_1_format
+    type: format
+    parent: ext_fig_1
+    code: code/ext_fig_1.R
+
+  - id: ext_fig_2
+    type: figure
+    label: Extended Data Fig. 2
+    description: Average vaccine acceptance across all LMIC countries leaving one or two study samples out
+    parents:
+      - prep_micro
+    engine: r
+    data:
+      - outputs/df.rds
+      - outputs/df2.rds
+    inputs:
+      - outputs/df.rds
+      - outputs/df2.rds
+    code: code/ext_fig_2.R
+    format: format_ext_fig_2
+    outputs:
+      - outputs/ext_fig_2.png
+    dependencies:
+      - dplyr
+      - ggplot2
+      - estimatr
+      - broom
+      - plyr
+      - scales
+      - tidyr
+
+  - id: ext_fig_2_format
+    type: format
+    parent: ext_fig_2
+    code: code/ext_fig_2.R

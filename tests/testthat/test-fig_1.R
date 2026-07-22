@@ -52,37 +52,53 @@ run_with_study_options <- function(expr) {
   )
 }
 
-test_that("run_replication executes fig_1", {
+test_that("slimmed study exposes prep + six paper targets", {
+  testthat::skip_if_not_installed("yaml")
+
+  meta <- yaml::read_yaml(testthat::test_path("..", "..", "replication.yml"))
+  ids <- vapply(meta$steps, `[[`, character(1), "id")
+  testthat::expect_true(all(
+    c(
+      "prep_micro", "prep_trust",
+      "tab_2", "fig_1", "fig_2", "fig_3", "ext_fig_1", "ext_fig_2"
+    ) %in% ids
+  ))
+  testthat::expect_true(file.exists(testthat::test_path("..", "..", "data", "combined.csv")))
+  testthat::expect_true(file.exists(testthat::test_path("..", "..", "data", "table_wgm.csv")))
+  testthat::expect_true(file.exists(testthat::test_path("..", "..", "data", "vacc_cov.csv")))
+  legacy <- c("fig_1.csv", "fig_3.csv", "fig_2_hist.csv", "wgm_2018_publiccsv.csv")
+  for (f in legacy) {
+    testthat::expect_false(
+      file.exists(testthat::test_path("..", "..", "data", f)),
+      info = f
+    )
+  }
+})
+
+test_that("run_replication executes tab_2 with Burkina/Colombia cells", {
+  testthat::skip_if_not_installed("replicateEverything")
+
+  run_with_study_options({
+    invisible(suppressMessages(capture.output({
+      tab <- replicateEverything::run_replication(DOI, "tab_2", format = TRUE)
+    })))
+    html <- paste(as.character(tab), collapse = "\n")
+    testthat::expect_true(grepl("Burkina Faso", html, fixed = TRUE))
+    testthat::expect_true(grepl("Colombia", html, fixed = TRUE))
+    # Published Table 2: Burkina Effective 87 / Colombia Effective 83
+    testthat::expect_true(grepl("> 87 <", html) || grepl(">87<", html))
+    testthat::expect_true(grepl("> 83 <", html) || grepl(">83<", html))
+  })
+})
+
+test_that("run_replication executes fig_1 from prep_micro", {
   testthat::skip_if_not_installed("replicateEverything")
   testthat::skip_if_not_installed("ggplot2")
 
   run_with_study_options({
     invisible(suppressMessages(capture.output({
-      plot <- replicateEverything::run_replication(DOI, "fig_1")
+      plot <- replicateEverything::run_replication(DOI, "fig_1", format = TRUE, given = "nothing")
     })))
     testthat::expect_true(inherits(plot, "ggplot"))
   })
-})
-
-test_that("run_replication executes tab_2", {
-  testthat::skip_if_not_installed("replicateEverything")
-
-  run_with_study_options({
-    invisible(suppressMessages(capture.output({
-      tab <- replicateEverything::run_replication(DOI, "tab_2")
-    })))
-    testthat::expect_true(is.character(tab) && grepl("Burkina Faso", tab[1], fixed = TRUE))
-  })
-})
-
-test_that("slimmed study exposes the six paper targets", {
-  testthat::skip_if_not_installed("replicateEverything")
-  testthat::skip_if_not_installed("yaml")
-
-  meta <- yaml::read_yaml(testthat::test_path("..", "..", "replication.yml"))
-  ids <- vapply(meta$steps, `[[`, character(1), "id")
-  testthat::expect_setequal(
-    ids,
-    c("tab_2", "fig_1", "fig_2", "fig_3", "ext_fig_1", "ext_fig_2")
-  )
 })

@@ -1,38 +1,40 @@
-# Table 2 — Vaccination beliefs and coverage for the countries studied
+# Table 2 — Vaccination beliefs and coverage (WGM + WHO aggregates)
 # Study: https://github.com/replicate-anything/rep-10.1038-s41591-021-01454-y
+# Analytic content is join/order of published national aggregates (not microdata).
 
 library(dplyr)
-library(kableExtra)
 library(forcats)
+library(kableExtra)
 library(knitr)
 
 make_tab_2 <- function(data) {
-  dfwgm <- data[[1]]
-  df_vacc_coveragebis <- data[[2]]
+  dfwgm <- if (is.list(data) && !is.data.frame(data)) data$table_wgm else data[[1]]
+  df_vacc <- if (is.list(data) && !is.data.frame(data)) data$vacc_cov else data[[2]]
 
-  table_1b <- dfwgm |>
-    left_join(df_vacc_coveragebis) |>
-    mutate(
+  dfwgm |>
+    dplyr::left_join(df_vacc, by = "country") |>
+    dplyr::mutate(
       country = as.factor(country),
       country = forcats::fct_relevel(country, "Russia", "USA", after = Inf)
     ) |>
-    arrange(country) |>
-    select(country, Effectiveness, Safety, Important, BCG, DTP1, MCV1, Coverage)
+    dplyr::arrange(country) |>
+    dplyr::select(country, Effectiveness, Safety, Important, BCG, DTP1, MCV1, Coverage)
+}
 
-  tab <-
-    knitr::kable(
-      table_1b,
-      caption = "Vaccination beliefs and coverage for the countries in our sample",
-      col.names = c(
-        "",
-        "Effective", "Safe", "Important for children to have",
-        "Tuberculosis (BCG)", "Diphtheria, Tetanus and Pertussis (DTP1)",
-        "Measles (MCV1)",
-        "% of parents with any child that was ever vaccinated"
-      ),
-      format = "html", booktabs = TRUE, linesep = "",
-      align = c("l", rep("c", 7)), label = "otherv"
-    ) |>
+format_tab_2 <- function(object) {
+  tab <- knitr::kable(
+    object,
+    caption = "Vaccination beliefs and coverage for the countries in our sample",
+    col.names = c(
+      "",
+      "Effective", "Safe", "Important for children to have",
+      "Tuberculosis (BCG)", "Diphtheria, Tetanus and Pertussis (DTP1)",
+      "Measles (MCV1)",
+      "% of parents with any child that was ever vaccinated"
+    ),
+    format = "html", booktabs = TRUE, linesep = "",
+    align = c("l", rep("c", 7)), label = "otherv"
+  ) |>
     kableExtra::kable_styling(
       latex_options = c("scale_down", "hold_position"),
       full_width = FALSE, font_size = 10
