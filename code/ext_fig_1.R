@@ -1,23 +1,36 @@
-# Fig. 3 — Trusted sources respondents say they would trust most
+# Extended Data Fig. 1 — Trusted sources and institutions, broken down by gender
 # Study: https://github.com/replicate-anything/rep-10.1038-s41591-021-01454-y
 
 library(dplyr)
 library(ggplot2)
 library(forcats)
-library(tidyr)
 library(broom)
 library(plyr)
 library(estimatr)
 library(stringr)
 
-make_fig_3 <- function(data) {
-  reasons_together <- function(data, reason, num = "Yes") {
-    data <- data |>
-      dplyr::filter(
-        take_vaccine %in% num,
-        if_all(c(all_of(reason), cluster, weight), ~ !is.na(.))
-      ) |>
-      dplyr::nest_by(group) |>
+make_ext_fig_1 <- function(data) {
+  study_weighting <- function(data) {
+    data %>%
+      dplyr::group_by(country) %>%
+      dplyr::mutate(weight = weight / sum(weight)) %>%
+      dplyr::ungroup()
+  }
+
+  lm_helper <- function(data, ...) {
+    data <- study_weighting(data)
+    fit <- estimatr::lm_robust(data = data, ...)
+    dplyr::bind_cols(broom::tidy(fit), n = nobs(fit))
+  }
+
+  reasons_together_subgroup <- function(df, reason, num = "Yes", dem_group = NA, dem_subgroup = NA) {
+    if (dem_group == "gender") {
+      df <- filter(df, gender %in% dem_subgroup)
+    }
+
+    df %>%
+      dplyr::filter(take_vaccine %in% num, !is.na(get(reason))) %>%
+      dplyr::nest_by(group) %>%
       dplyr::summarize(
         lm_helper(
           data = data,
@@ -27,21 +40,59 @@ make_fig_3 <- function(data) {
         ),
         .groups = "drop"
       )
-    data
   }
 
-  study_weighting <- function(data) {
-    data |>
-      dplyr::group_by(country) |>
-      dplyr::mutate(weight = weight / sum(weight)) |>
-      dplyr::ungroup()
-  }
+  trust_names <- c(
+    "trust_recode_1", "trust_recode_2", "trust_recode_3",
+    "trust_recode_4", "trust_recode_5", "trust_vaccine_5", "trust_vaccine_6"
+  )
 
-  lm_helper <- function(data, ...) {
-    data <- study_weighting(data)
-    fit <- estimatr::lm_robust(data = data, ...)
-    dplyr::bind_cols(broom::tidy(fit), n = nobs(fit))
-  }
+  studies_levels <- c(
+    "Burkina Faso", "Colombia", "India", "Mozambique",
+    "Nepal", "Nigeria", "Pakistan 1", "Rwanda",
+    "Sierra Leone 1", "Sierra Leone 2", "Uganda 2",
+    "All", "Russia", "USA"
+  )
+
+  dictionary <- data.frame(
+    outcome = c(
+      "study", "country", "take_vaccine", "take_vaccine_num",
+      "age", "age_groups", "age_groups_binary", "educ", "educ_binary",
+      "gender", "cluster", "weight",
+      "yes_vaccine_1", "yes_vaccine_2", "yes_vaccine_3", "yes_vaccine_4",
+      "yes_vaccine_5", "yes_vaccine_666",
+      "no_vaccine_1", "no_vaccine_2", "no_vaccine_3", "no_vaccine_4",
+      "no_vaccine_5", "no_vaccine_6", "no_vaccine_7", "no_vaccine_8",
+      "no_vaccine_9", "no_vaccine_666",
+      "trust_vaccine_1", "trust_vaccine_2", "trust_vaccine_3", "trust_vaccine_4",
+      "trust_vaccine_5", "trust_vaccine_6", "trust_vaccine_7", "trust_vaccine_8",
+      "trust_vaccine_9", "trust_vaccine_dk", "trust_vaccine_refuse",
+      "trust_vaccine_nr", "trust_vaccine_666", "trust_vaccine_other",
+      "trust_recode_1", "trust_recode_2", "trust_recode_3",
+      "trust_recode_4", "trust_recode_5"
+    ),
+    tag = c(
+      "Study code", "Study name", "Respondent would take the vaccine if available?",
+      "Respondent would take the vaccine if available? Yes = 1",
+      "Age", "Age grouped", "Age recoded", "Education", "Education recoded",
+      "Male", "Survey clusters", "Survey weights",
+      "Protection: self", "Protection: family", "Protection: community",
+      "If recommended by: Health workers", "If recommended by: Government", "Other",
+      "Concerned about side effects", "Concerned about getting coronavirus from the vaccine",
+      "Not concerned about getting seriously ill", "Doesn't think vaccines are effective",
+      "Doesn't think Coronavirus outbreak is as serious as people say",
+      "Doesn't like needles", "Allergic to vaccines", "Won't have time to get vaccinated",
+      "Mentions a conspiracy theory", "Other reasons",
+      "Family", "Friends", "Religious leader", "Famous person",
+      "Health workers", "Government or MoH", "Traditional healers",
+      "Media", "Online medical groups", "Don't know", "Refuse",
+      "No response", "Other (specify)", "Other (category)",
+      "Family or Friends", "Newspapers, radio or online groups",
+      "Famous person, religious leader or traditional healers",
+      "Other", "Don't know or Refuse"
+    ),
+    stringsAsFactors = FALSE
+  )
 
   data <- data |>
     dplyr::group_by(study) |>
@@ -124,75 +175,32 @@ make_fig_3 <- function(data) {
       )
     )
 
-  trust_names <- c(
-    "trust_recode_1", "trust_recode_2", "trust_recode_3",
-    "trust_recode_4", "trust_recode_5", "trust_vaccine_5", "trust_vaccine_6"
-  )
-
-  studies_levels <- c(
-    "Burkina Faso", "Colombia", "India", "Mozambique",
-    "Nepal", "Nigeria", "Pakistan 1", "Rwanda",
-    "Sierra Leone 1", "Sierra Leone 2", "Uganda 2",
-    "All", "Russia", "USA"
-  )
-
-  dictionary <- data.frame(
-    outcome = c(
-      "study", "country", "take_vaccine", "take_vaccine_num",
-      "age", "age_groups", "age_groups_binary", "educ", "educ_binary",
-      "gender", "cluster", "weight",
-      "yes_vaccine_1", "yes_vaccine_2", "yes_vaccine_3", "yes_vaccine_4",
-      "yes_vaccine_5", "yes_vaccine_666",
-      "no_vaccine_1", "no_vaccine_2", "no_vaccine_3", "no_vaccine_4",
-      "no_vaccine_5", "no_vaccine_6", "no_vaccine_7", "no_vaccine_8",
-      "no_vaccine_9", "no_vaccine_666",
-      "trust_vaccine_1", "trust_vaccine_2", "trust_vaccine_3", "trust_vaccine_4",
-      "trust_vaccine_5", "trust_vaccine_6", "trust_vaccine_7", "trust_vaccine_8",
-      "trust_vaccine_9", "trust_vaccine_dk", "trust_vaccine_refuse",
-      "trust_vaccine_nr", "trust_vaccine_666", "trust_vaccine_other",
-      "trust_recode_1", "trust_recode_2", "trust_recode_3",
-      "trust_recode_4", "trust_recode_5"
-    ),
-    tag = c(
-      "Study code", "Study name", "Respondent would take the vaccine if available?",
-      "Respondent would take the vaccine if available? Yes = 1",
-      "Age", "Age grouped", "Age recoded", "Education", "Education recoded",
-      "Male", "Survey clusters", "Survey weights",
-      "Protection: self", "Protection: family", "Protection: community",
-      "If recommended by: Health workers", "If recommended by: Government", "Other",
-      "Concerned about side effects", "Concerned about getting coronavirus from the vaccine",
-      "Not concerned about getting seriously ill", "Doesn't think vaccines are effective",
-      "Doesn't think Coronavirus outbreak is as serious as people say",
-      "Doesn't like needles", "Allergic to vaccines", "Won't have time to get vaccinated",
-      "Mentions a conspiracy theory", "Other reasons",
-      "Family", "Friends", "Religious leader", "Famous person",
-      "Health workers", "Government or MoH", "Traditional healers",
-      "Media", "Online medical groups", "Don't know", "Refuse",
-      "No response", "Other (specify)", "Other (category)",
-      "Family or Friends", "Newspapers, radio or online groups",
-      "Famous person, religious leader or traditional healers",
-      "Other", "Don't know or Refuse"
-    ),
-    stringsAsFactors = FALSE
-  )
-
-  trust_vacc_together <- list(
-    All = lapply(trust_names, reasons_together, data = data2, num = c("Yes", "No", "DK")) |>
-      dplyr::bind_rows(),
-    Yes = lapply(trust_names, reasons_together, data = data2, num = c("Yes")) |>
-      dplyr::bind_rows(),
-    No = lapply(trust_names, reasons_together, data = data2, num = c("No", "DK")) |>
-      dplyr::bind_rows()
-  ) |>
-    dplyr::bind_rows(.id = "sub") |>
-    dplyr::filter(!is.nan(statistic)) |>
+  trust_vacc_gender <- list(
+    All = lapply(
+      trust_names, reasons_together_subgroup,
+      df = data2, num = c("Yes", "No", "DK"),
+      dem_group = "gender", dem_subgroup = c("Female", "Male")
+    ) %>% dplyr::bind_rows(),
+    Male = lapply(
+      trust_names, reasons_together_subgroup,
+      df = data2, num = c("Yes", "No", "DK"),
+      dem_group = "gender", dem_subgroup = "Male"
+    ) %>% dplyr::bind_rows(),
+    Female = lapply(
+      trust_names, reasons_together_subgroup,
+      df = data2, num = c("Yes", "No", "DK"),
+      dem_group = "gender", dem_subgroup = "Female"
+    ) %>% dplyr::bind_rows()
+  ) %>%
+    dplyr::bind_rows(.id = "sub") %>%
+    dplyr::filter(!is.nan(statistic)) %>%
     dplyr::mutate(
       across(c(conf.low, conf.high, estimate), ~ round(. * 100, digits = 1)),
       n_sub = round(n * estimate, 0),
       n_sub = ifelse(n_sub == 0, NA_integer_, n_sub),
       group = factor(group, levels = studies_levels)
-    ) |>
-    dplyr::left_join(dictionary, by = "outcome") |>
+    ) %>%
+    dplyr::left_join(dictionary, by = "outcome") %>%
     dplyr::mutate(
       size = cut(n_sub, c(0, 50, 500, Inf), include.lowest = TRUE),
       size = forcats::fct_recode(size, "500+" = "(500,Inf]"),
@@ -207,12 +215,7 @@ make_fig_3 <- function(data) {
         "Other",
         "Don't know or Refuse"
       ),
-      sub = forcats::fct_relevel(as.factor(sub), "No", "Yes", "All"),
-      sub = plyr::mapvalues(
-        sub,
-        from = c("No", "Yes", "All"),
-        to = c("No, Don't know", "Yes", "Any")
-      )
+      sub = forcats::fct_relevel(as.factor(sub), "Female", "Male", "All")
     )
 
   safe_colorblind_palette <- c(
@@ -221,27 +224,26 @@ make_fig_3 <- function(data) {
     "#661100", "#6699CC", "#888888", "#88CCEE"
   )
 
-  trust_vacc_together |>
-    dplyr::mutate(group = plyr::mapvalues(group, "All", "All LMICs")) |>
-    dplyr::filter(sub == "Any") |>
-    ggplot2::ggplot(aes(estimate, tag)) +
-    ggplot2::geom_bar(stat = "identity", position = "dodge", fill = "#DDCC77") +
-    ggplot2::facet_wrap(~group, ncol = 2, strip.position = "left") +
-    ggplot2::coord_flip() +
-    ggplot2::scale_fill_manual(
+  trust_vacc_gender %>%
+    dplyr::mutate(group = plyr::mapvalues(group, "All", "All LMICs")) %>%
+    ggplot(aes(estimate, tag, fill = sub)) +
+    geom_bar(stat = "identity", position = "dodge") +
+    facet_wrap(~group, ncol = 2, strip.position = "left") +
+    coord_flip() +
+    scale_fill_manual(
       name = "Answer",
       values = safe_colorblind_palette[c(1, 3, 2)]
     ) +
-    ggplot2::scale_y_discrete(
+    scale_y_discrete(
       labels = function(x) stringr::str_wrap(x, width = 16),
       guide = guide_axis(angle = 90)
     ) +
-    ggplot2::labs(
+    labs(
       title = "Which of the following people would you trust MOST to help you decide whether you would get a COVID-19 vaccine?",
       y = ""
     ) +
-    ggplot2::theme_bw() +
-    ggplot2::theme(
+    theme_bw() +
+    theme(
       legend.position = "bottom",
       plot.title.position = "plot",
       axis.text.y = element_text(hjust = 0)

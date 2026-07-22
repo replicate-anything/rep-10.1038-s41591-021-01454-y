@@ -20,6 +20,7 @@ paper:
     Trivedi, Corey Vernot, Pedro C. Vicente, Laurin B. Weissinger, Basit Zafar, Baobao
     Zhang, Dean Karlan, Michael Callen, Matthieu Teachout, Macartan Humphreys, Ahmed
     Mushfiq Mobarak, Saad B. Omer
+  study_folder: rep-10.1038-s41591-021-01454-y
   dependencies:
   - dplyr
   - ggplot2
@@ -30,6 +31,8 @@ paper:
   - plyr
   - estimatr
   - knitr
+  - scales
+  - stringr
 maintainer:
   name: Macartan Humphreys
   email: macartan.humphreys@wzb.eu
@@ -37,184 +40,83 @@ collections:
 - IPI
 languages:
 - r
+repo: replicate-anything/rep-10.1038-s41591-021-01454-y
+
 steps:
-- type: figure
-  description: Acceptance Rates (disaggregated by group)
-  data: data/fig_1.csv
-  code: code/fig_1.R
-  id: fig_1
-  outputs:
-  - outputs/fig_1.png
-  inputs:
-  - data/fig_1.csv
+- id: tab_2
+  type: table
+  label: Table 2
+  description: Vaccination beliefs and coverage for the countries studied
   engine: r
-- type: figure
-  description: Robustness check using leave-m-out approach
-  data:
-  - data/fig_2_hist.csv
-  - data/fig_2_ref.csv
-  code: code/fig_2.R
-  id: fig_2
-  outputs:
-  - outputs/fig_2.png
-  inputs:
-  - data/fig_2_hist.csv
-  - data/fig_2_ref.csv
-  engine: r
-- type: figure
-  description: Reason not to take vaccine
-  data: data/fig_3.csv
-  code: code/fig_3.R
-  id: fig_3
-  outputs:
-  - outputs/fig_3.png
-  inputs:
-  - data/fig_3.csv
-  engine: r
-- type: figure
-  description: Trust
-  data: data/combined.csv
-  code: code/fig_4.R
-  id: fig_4
-  outputs:
-  - outputs/fig_4.png
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: figure
-  description: Trust by acceptance
-  data: data/combined.csv
-  code: code/fig_5.R
-  id: fig_5
-  outputs:
-  - outputs/fig_5.png
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: figure
-  description: Trust by gender
-  data: data/combined.csv
-  code: code/fig_6.R
-  id: fig_6
-  outputs:
-  - outputs/fig_6.png
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: Vaccine Data from WGM, WHO
   data:
   - data/table_wgm.csv
   - data/vacc_cov.csv
-  code: code/tab_1.R
-  id: tab_1
-  outputs:
-  - outputs/tab_1.html
   inputs:
   - data/table_wgm.csv
   - data/vacc_cov.csv
-  engine: r
-- type: table
-  description: Summary of Studies' Sampling
-  data: data/studies_info_sample.csv
   code: code/tab_2.R
-  id: tab_2
   outputs:
   - outputs/tab_2.html
-  inputs:
-  - data/studies_info_sample.csv
+
+- id: fig_1
+  type: figure
+  label: Fig. 1
+  description: Acceptance rates, overall and by respondent characteristics
   engine: r
-- type: table
-  description: Differences in Means
-  data: data/combined.csv
-  code: code/tab_3.R
-  id: tab_3
+  data: data/fig_1.csv
+  inputs:
+  - data/fig_1.csv
+  code: code/fig_1.R
   outputs:
-  - outputs/tab_3.html
+  - outputs/fig_1.png
+
+- id: fig_2
+  type: figure
+  label: Fig. 2
+  description: Reasons not to take the vaccine
+  engine: r
+  data: data/fig_3.csv
+  inputs:
+  - data/fig_3.csv
+  code: code/fig_2.R
+  outputs:
+  - outputs/fig_2.png
+
+- id: fig_3
+  type: figure
+  label: Fig. 3
+  description: Trusted sources respondents say they would trust most to help them decide whether to take the COVID-19 vaccine
+  engine: r
+  data: data/combined.csv
   inputs:
   - data/combined.csv
-  engine: r
-- type: table
-  description: Difference in Means (by study)
-  data: data/combined.csv
-  code: code/tab_4.R
-  id: tab_4
+  code: code/fig_3.R
   outputs:
-  - outputs/tab_4.html
+  - outputs/fig_3.png
+
+- id: ext_fig_1
+  type: figure
+  label: Extended Data Fig. 1
+  description: Trusted sources and institutions, broken down by gender
+  engine: r
+  data: data/combined.csv
   inputs:
   - data/combined.csv
-  engine: r
-- type: table
-  description: Differences between groups within studies (Summary)
-  data: data/combined.csv
-  code: code/tab_5.R
-  id: tab_5
+  code: code/ext_fig_1.R
   outputs:
-  - outputs/tab_5.html
-  inputs:
-  - data/combined.csv
+  - outputs/ext_fig_1.png
+
+- id: ext_fig_2
+  type: figure
+  label: Extended Data Fig. 2
+  description: Average vaccine acceptance across all LMIC countries leaving one or two study samples out
   engine: r
-- type: table
-  description: Reason to take
-  data: data/combined.csv
-  code: code/tab_6.R
-  id: tab_6
-  outputs:
-  - outputs/tab_6.html
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: Reason to take the vaccine. All categories.
-  data: data/combined.csv
-  code: code/tab_7.R
-  id: tab_7
-  outputs:
-  - outputs/tab_7.html
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: 'Reason to take the vaccine: by age.'
-  data: data/combined.csv
-  code: code/tab_8.R
-  id: tab_8
-  outputs:
-  - outputs/tab_8.html
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: Reason not to take the vaccine
-  data: data/combined.csv
-  code: code/tab_9.R
-  id: tab_9
-  outputs:
-  - outputs/tab_9.html
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: 'Vaccination Decision-making: most trusted source.'
-  data: data/combined.csv
-  code: code/tab_10.R
-  id: tab_10
-  outputs:
-  - outputs/tab_10.html
-  inputs:
-  - data/combined.csv
-  engine: r
-- type: table
-  description: Summary Stats
   data:
-  - data/combined.csv
-  - data/wgm_2018_publiccsv.csv
-  code: code/tab_11.R
-  id: tab_11
-  outputs:
-  - outputs/tab_11.html
+  - data/fig_2_hist.csv
+  - data/fig_2_ref.csv
   inputs:
-  - data/combined.csv
-  - data/wgm_2018_publiccsv.csv
-  engine: r
-repo: replicate-anything/rep-10.1038-s41591-021-01454-y
+  - data/fig_2_hist.csv
+  - data/fig_2_ref.csv
+  code: code/ext_fig_2.R
+  outputs:
+  - outputs/ext_fig_2.png

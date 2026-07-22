@@ -1,22 +1,15 @@
-# Acceptance Rates (disaggregated by group) — COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries
-# Paper folder: https://github.com/replicate-anything/registry/tree/main/studies/10.1038_s41591-021-01454-y
-# Run from the paper's code/ folder: Rscript fig_1.R
+# Fig. 1 — Acceptance rates, overall and by respondent characteristics
+# Study: https://github.com/replicate-anything/rep-10.1038-s41591-021-01454-y
 
-library(dplyr)
 library(ggplot2)
-library(kableExtra)
-library(forcats)
-library(tidyr)
-library(broom)
 
-make_fig_1 <- function(data){
-  
+make_fig_1 <- function(data) {
   safe_colorblind_palette <- c(
     "#CC6677", "#DDCC77", "#117733", "#332288", "#AA4499",
     "#44AA99", "#999933", "#882255", "#661100", "#6699CC",
     "#888888", "#88CCEE"
   )
-  
+
   fig_1_ages <- ggplot2::ggplot(data, ggplot2::aes(x = tag, y = estimate, color = cat)) +
     ggplot2::geom_errorbar(
       ggplot2::aes(ymin = conf.low, ymax = conf.high),
@@ -46,9 +39,6 @@ make_fig_1 <- function(data){
       plot.caption.position = "plot",
       axis.text.y = ggplot2::element_text(hjust = 0)
     )
-  
-  return(fig_1_ages)
-  
-}
 
-make_fig_1(utils::read.csv("../data/fig_1.csv", stringsAsFactors = FALSE))
+  fig_1_ages
+}
