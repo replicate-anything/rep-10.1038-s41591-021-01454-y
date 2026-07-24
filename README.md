@@ -45,10 +45,10 @@ options(
 replicateEverything::build_study_outputs(".", install_deps = TRUE)
 ```
 
-## Sync to registry
+## Validate, then sync to registry
 
 ```r
-replicateEverything::prepare_study_for_registry(".", registry_root = "../registry")
+replicateEverything::check_and_bake_study(".", registry_root = "../registry")
 replicateEverything::sync_study_to_registry(".", registry_root = "../registry")
 ```
 
